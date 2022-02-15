@@ -1,35 +1,66 @@
 <script>
     export let evento;
     const { title, description, date, url, ubicacion } = evento;
-    $:short_desc=description.slice(0, 100); // Better implementation to be done
-    let open_desc=false;
+    let splited = description.split(".");
+    $: short_desc =
+        splited.length > 1 ? splited[0].concat(splited[1]) : splited[0]; // Better implementation to be done
+    let open_desc = false;
 </script>
 
 <div class="box has-background-dark">
     <div>
-        <h1 class="title has-text-primary ">{title}</h1>
-        <p class="has-text-light has-text-left">{date}</p>
-        {#if !open_desc}
-        <div>
-          <span class="has-text-light is-info has-text-justified">{short_desc}...</span>
+        <div class="columns">
+            <div class="column">
+                <h1 class="title has-text-primary ">{title}</h1>
+            </div>
+            <div class="column" />
+            <p class="has-text-light has-text-right"><b>{date}</b></p>
         </div>
+        {#if !open_desc}
+            <div>
+                <p class="has-text-light is-info has-text-justified">
+                    {short_desc} 
+                    
+                    ...
+                    <span
+                        class=" is-text is-small has-text-primary is-underlined is-clickable"
+                        on:click={() => (open_desc = !open_desc)}
+                    >
+                        {open_desc ? "Ver menos" : "Ver más"}
+                    </span>
+                </p>
+            </div>
         {:else}
-        <div >
-            <span class="has-text-light is-info has-text-justified">{description}</span>
-          </div>
+            <div>
+                <p class="has-text-light is-info has-text-justified">
+                    {description}
+                    <span
+                        class=" is-text is-small has-text-primary is-underlined is-clickable"
+                        on:click={() => (open_desc = !open_desc)}
+                    >
+                        {open_desc ? "Ver menos" : "Ver más"}
+                    </span>
+                </p>
+            </div>
         {/if}
-        <span class=" is-text is-small has-text-primary is-underlined is-clickable" on:click={()=>open_desc=!open_desc}> {open_desc? "Ver menos": "Ver más" }</span>
-        
 
-        <p class="has-text-light has-text-left">
-            Ubicación: {#if ubicacion == undefined}
-                Salón de Actos
-            {:else}
-                {ubicacion}
+        <br>
+        <div class="columns">
+            <div class="column">
+                <p class="has-text-light has-text-left">
+                    <b>Ubicación</b>: {#if ubicacion == undefined}
+                        Salón de Actos.
+                    {:else}
+                        {ubicacion}
+                    {/if}
+                </p>
+            </div>
+            <div class="column" />
+            {#if url !== undefined}
+                <a href={url} class="button is-primary  is-rounded"
+                    >Inscríbete aquí</a
+                >
             {/if}
-        </p>
+        </div>
     </div>
-    {#if url !== undefined}
-        <a href={url} class="button ">Inscripcion</a>
-    {/if}
 </div>
