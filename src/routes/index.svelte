@@ -7,8 +7,7 @@
 </svelte:head>
 
 <section>
-	<h1>Hackers Week 8</h1>
-
+	<h1 class="title has-text-primary">Hackers Week 8</h1>
 	<h2>
 		TODO
 	</h2>
