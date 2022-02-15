@@ -1,0 +1,19 @@
+{
+    "conferencias": [
+        {
+            "title": "NVIDIA",
+            "description": "bla bla"
+        },
+        {
+            "title": "Docker",
+            "description": "bla bla",
+            "url": "http://www.google.com"
+        }
+    ],
+    "talleres": [
+        {
+            "title": "taller NVIDIA",
+            "description": "bla bla"
+        }
+    ]
+}
