@@ -4,6 +4,7 @@
 
 <script>
 	import datos from "$lib/datos.json";
+import Hero from "$lib/hero.svelte";
 	import Tarjeta from "$lib/tarjeta.svelte";
 
 	const { conferencias } = datos;
@@ -15,11 +16,7 @@
 	<title>Home</title>
 </svelte:head>
 
-<section class="hero is-fullheight-with-navbar is-dark is-bold">
-	<div class="hero-body">
-		<p class="title is-1">Hackers Week 8</p>
-	</div>
-</section>
+<Hero />
 
 <section class="section">
 	{#each conferencias as c}
