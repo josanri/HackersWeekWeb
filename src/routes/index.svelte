@@ -23,6 +23,6 @@
 
 <section class="section">
 	{#each conferencias as c}
-		<Tarjeta title={c.title} description={c.description} url={c.url} />
+		<Tarjeta evento={c} />
 	{/each}
 </section>
