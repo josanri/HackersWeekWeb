@@ -6,10 +6,10 @@
 	<title>Home</title>
 </svelte:head>
 
-<section>
-	<h1>Hackers Week 8</h1>
-
-	<h2>
-		TODO
-	</h2>
-</section>
+<section class="hero is-fullheight-with-navbar is-dark is-bold">
+	<div class="hero-body">
+	  <p class="title is-1">
+		Hackers Week 8
+	  </p>
+	</div>
+  </section>
