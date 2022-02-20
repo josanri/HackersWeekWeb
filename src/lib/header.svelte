@@ -1,5 +1,37 @@
 <script>
+    import { page } from "$app/stores";
+
+    const links = [
+        {
+            href: "/conferences",
+            name: "Conferences",
+        },
+        {
+            href: "/workshops",
+            name: "Talleres",
+        },
+        {
+            href: "/videogames",
+            name: "Videojuegos",
+        },
+        {
+            href: "/rol",
+            name: "Rol",
+        },
+    ];
+
     let isActive = false;
+
+    function getActiveClass(c) {
+        return c ? "is-active" : "";
+    }
+
+    $: activeClass = getActiveClass(isActive);
+    $: activeLink = $page.url.pathname && links.findIndex((link)=> link.href == $page.url.pathname)
+
+    page.subscribe(() => {
+        isActive = false;
+    })
 </script>
 
 <nav class="navbar is-black" aria-label="main navigation">
@@ -10,7 +42,7 @@
         <!-- svelte-ignore a11y-missing-attribute -->
         <a
             role="button"
-            class="navbar-burger"
+            class="navbar-burger {activeClass}"
             aria-label="menu"
             aria-expanded="false"
             on:click={() => (isActive = !isActive)}
@@ -20,12 +52,11 @@
             <span aria-hidden="true" />
         </a>
     </div>
-    <div class="navbar-menu {isActive ? 'is-active' : ''}">
+    <div class="navbar-menu {activeClass}">
         <div class="navbar-start">
-            <a class="navbar-item" href="/conferences">Conferencias</a>
-            <a class="navbar-item" href="/workshops">Talleres</a>
-            <a class="navbar-item" href="/videogames">Videojuegos</a>
-            <a class="navbar-item" href="/rol">Rol</a>
+            {#each links as { href, name }, i}
+                <a class="navbar-item {getActiveClass(activeLink == i)}" {href}>{name}</a>
+            {/each}
         </div>
     </div>
 </nav>
