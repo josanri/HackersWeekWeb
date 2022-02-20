@@ -4,12 +4,10 @@
 
 <script>
 	import datos from "$lib/datos.json";
-import Hero from "$lib/hero.svelte";
+	import Hero from "$lib/hero.svelte";
 	import Tarjeta from "$lib/tarjeta.svelte";
 
 	const { conferencias } = datos;
-
-	console.log(conferencias);
 </script>
 
 <svelte:head>
