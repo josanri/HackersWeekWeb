@@ -22,10 +22,10 @@
     </div>
     <div class="navbar-menu {isActive ? 'is-active' : ''}">
         <div class="navbar-start">
-            <a class="navbar-item" href="#conferencias">Conferencias</a>
-            <a class="navbar-item" href="#talleres">Talleres</a>
-            <a class="navbar-item" href="#videojuegos">Videojuegos</a>
-            <a class="navbar-item" href="#rol">Rol</a>
+            <a class="navbar-item" href="/conferences">Conferencias</a>
+            <a class="navbar-item" href="/workshops">Talleres</a>
+            <a class="navbar-item" href="/videogames">Videojuegos</a>
+            <a class="navbar-item" href="/rol">Rol</a>
         </div>
     </div>
 </nav>
