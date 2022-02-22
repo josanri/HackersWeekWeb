@@ -1,5 +1,6 @@
 <script>
     import { page } from "$app/stores";
+    import {base} from "$app/paths"
 
     const links = [
         {
@@ -55,7 +56,7 @@
     <div class="navbar-menu {activeClass}">
         <div class="navbar-start">
             {#each links as { href, name }, i}
-                <a class="navbar-item {getActiveClass(activeLink == i)}" {href}>{name}</a>
+                <a class="navbar-item {getActiveClass(activeLink == i)}" href="{base}{href}">{name}</a>
             {/each}
         </div>
     </div>

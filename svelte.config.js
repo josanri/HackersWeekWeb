@@ -10,6 +10,10 @@ const config = {
       fallback: null
     }),
 
+    paths: {
+      base: process.env.NODE_ENV === "production" ? "/HackersWeekWeb" : ""
+    },
+
     vite: {
       css: {
         preprocessorOptions: {
