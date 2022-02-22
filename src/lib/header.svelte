@@ -61,7 +61,7 @@
             {#each links as { href, name }, i}
                 <a
                     class="navbar-item {getActiveClass(activeLink == i)}"
-                    href="{base}{href}">{name}
+                    href="{base}/events{href}">{name}
                 </a>
             {/each}
         </div>
