@@ -2,7 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
+    "build": "npm run clean && svelte-kit build",
+    "clean": "trash build",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview"
   },
@@ -13,7 +14,8 @@
     "bulma": "^0.9.3",
     "sass": "^1.46.0",
     "svelte": "^3.44.0",
-    "svelte-preprocess": "^4.10.1"
+    "svelte-preprocess": "^4.10.1",
+    "trash-cli": "^5.0.0"
   },
   "type": "module",
   "dependencies": {
