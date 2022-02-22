@@ -1,18 +1,45 @@
 {
-    "conferencias": [
+    "conferences": [
         {
             "title": "NVIDIA",
-            "description": "bla bla"
+            "date": "15:30 - Martes 5 de abril",
+            "description": "Nvidia presentará su nueva gama de tarjetas gráficas, 4000 sin stock disponible."
         },
         {
             "title": "Docker",
-            "description": "bla bla",
+            "date": "15:30 - Lunes 4 de abril",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat et tellus id tempor. Praesent quis nunc ante. Cras fringilla ultrices dui et feugiat. Donec ultricies lorem vitae mauris mollis tincidunt. Maecenas viverra, tortor nec porta tempor, mi sapien auctor nibh, in pulvinar enim diam quis nisl. Fusce hendrerit imperdiet arcu eu gravida. Vestibulum viverra mauris nec justo laoreet posuere. Suspendisse potenti. Nunc ornare sodales dapibus.",
             "url": "http://www.google.com"
         }
     ],
-    "talleres": [
+    "workshops": [
         {
             "title": "taller NVIDIA",
+            "date": "9:30 - Lunes 4 de abril",
+            "description": "bla bla"
+        }
+    ],
+    "videogames": [
+        {
+            "name": "Counter Strike: Global Offensive",
+            "date": "9:30 - Lunes 4 de abril",
+            "description": "bla bla"
+        },
+        {
+            "name": "League of Legends",
+            "date": "9:30 - Lunes 4 de abril",
+            "description": "bla bla"
+        }
+    ],
+    "rol": [
+        {
+            "name": "Shadow of Mordor",
+            "date": "9:30 - Lunes 4 de abril",
+            "description": "bla bla"
+        },
+        {
+            "name": "The Lost Ark",
+            "date": "9:30 - Lunes 6 de abril",
             "description": "bla bla"
         }
     ]
