@@ -1,6 +1,6 @@
 <script>
     import { page } from "$app/stores";
-    import {base} from "$app/paths"
+    import { base } from "$app/paths";
 
     const links = [
         {
@@ -28,16 +28,20 @@
     }
 
     $: activeClass = getActiveClass(isActive);
-    $: activeLink = $page.url.pathname && links.findIndex((link)=> link.href == $page.url.pathname)
+    $: activeLink =
+        $page.url.pathname &&
+        links.findIndex((link) => link.href == $page.url.pathname);
 
     page.subscribe(() => {
         isActive = false;
-    })
+    });
+
+    const indexPath = process.env.NODE_ENV === "production" ? "/" : "/";
 </script>
 
 <nav class="navbar is-black" aria-label="main navigation">
     <div class="navbar-brand">
-        <a class="navbar-item" href="{base === '' ? '/' : base}">
+        <a class="navbar-item" href="{base}/">
             <h1>HW&lt;&gt;8</h1>
         </a>
         <!-- svelte-ignore a11y-missing-attribute -->
@@ -56,7 +60,10 @@
     <div class="navbar-menu {activeClass}">
         <div class="navbar-start">
             {#each links as { href, name }, i}
-                <a class="navbar-item {getActiveClass(activeLink == i)}" href="{base}{href}">{name}</a>
+                <a
+                    class="navbar-item {getActiveClass(activeLink == i)}"
+                    href="{base}{href}">{name}</a
+                >
             {/each}
         </div>
     </div>
