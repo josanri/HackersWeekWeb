@@ -7,8 +7,16 @@ const config = {
     adapter: adapter({
       pages: 'build',
       assets: 'build',
-      fallback: null
+      fallback: null,
     }),
+
+    prerender: {
+      onError: 'continue'
+    },
+    
+    paths: {
+      base: process.env.NODE_ENV === "production" ? "/HackersWeekWeb" : "/"
+    },
 
     vite: {
       css: {

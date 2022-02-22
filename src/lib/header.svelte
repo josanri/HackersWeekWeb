@@ -35,13 +35,12 @@
     page.subscribe(() => {
         isActive = false;
     });
-
-    const indexPath = process.env.NODE_ENV === "production" ? "/" : "/";
 </script>
 
 <nav class="navbar is-black" aria-label="main navigation">
     <div class="navbar-brand">
-        <a class="navbar-item" href="/">
+        <!-- svelte-ignore -->
+        <a class="navbar-item" rel="external" href={base}>
             <h1>HW&lt;&gt;8</h1>
         </a>
         <!-- svelte-ignore a11y-missing-attribute -->
@@ -62,8 +61,8 @@
             {#each links as { href, name }, i}
                 <a
                     class="navbar-item {getActiveClass(activeLink == i)}"
-                    href="{base}{href}">{name}</a
-                >
+                    href="{base}{href}">{name}
+                </a>
             {/each}
         </div>
     </div>

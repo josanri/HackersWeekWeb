@@ -14,7 +14,7 @@
 <Header />
 
 <main>
-	{#if $page.url.pathname != "/"}
+	{#if $page.url.pathname != base}
 		<section class="section">
 			<slot />
 		</section>
