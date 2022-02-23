@@ -40,7 +40,7 @@
 <nav class="navbar is-black" aria-label="main navigation">
     <div class="navbar-brand">
         <!-- svelte-ignore -->
-        <a class="navbar-item" href={base}>
+        <a class="navbar-item" href="{base}/">
             <h1>HW&lt;&gt;8</h1>
         </a>
         <!-- svelte-ignore a11y-missing-attribute -->
