@@ -28,13 +28,8 @@
     }
 
     $: activeClass = getActiveClass(isActive);
-    $: activeLink =
-        $page.url.pathname &&
-        links.findIndex((link) => link.href == $page.url.pathname);
 
-    page.subscribe(() => {
-        isActive = false;
-    });
+    page.subscribe(() => (isActive = false));
 </script>
 
 <nav class="navbar is-black" aria-label="main navigation">
@@ -58,10 +53,11 @@
     </div>
     <div class="navbar-menu {activeClass}">
         <div class="navbar-start">
-            {#each links as { href, name }, i}
+            {#each links as { href, name }}
                 <a
-                    class="navbar-item {getActiveClass(activeLink == i)}"
-                    href="{base}/events{href}">{name}
+                    class="navbar-item"
+                    href="{base}/events{href}"
+                    >{name}
                 </a>
             {/each}
         </div>
