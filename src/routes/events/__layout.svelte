@@ -1,3 +1,5 @@
 <section class="section">
-    <slot />
+    <div class="container">
+        <slot />
+    </div>
 </section>
