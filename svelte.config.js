@@ -11,7 +11,8 @@ const config = {
     }),
 
     prerender: {
-      onError: 'continue'
+      onError: 'continue',
+      default: true
     },
     
     paths: {
