@@ -1,11 +1,26 @@
 <script>
+      function betterSplit (str) {
+        const puntos=2; // Dots to stop
+        var res="";
+        let i=0;
+        let it = 0;
+        while (i<puntos  && it<str.length){
+            if (str.charAt(it)=='.') i++;
+            if (i<puntos) res+=(str.charAt(it));
+            it++;
+        }
+        return res;
+    }
+
     export let evento;
     const { title, description, date, url, ubicacion } = evento;
-    let splited = description.split(".");
-    $: short_desc =
-        splited.length > 1 ? splited[0].concat(splited[1]) : splited[0]; // Better implementation to be done
+    $: short_desc = betterSplit(description);
     let open_desc = false;
+
+ 
 </script>
+
+
 
 <div class="box has-background-dark">
     <div>
@@ -29,33 +44,21 @@
             </p>
         </div>
 
-        {#if !open_desc}
+        
             <div>
-                <p class="has-text-light is-info has-text-justified mb-3">
-                    {short_desc}
+                <p class="has-text-light is-info has-text-justified mb-3"  >
+                    {open_desc ? description : short_desc}
 
-                    ...
-                    <span
-                        class=" is-text is-small has-text-primary is-underlined is-clickable"
+                    {open_desc ? "" : "..."} 
+
+                    <span 
+                        class=" is-text is-small has-text-primary is-underlined is-clickable has-text-weight-bold"
                         on:click={() => (open_desc = !open_desc)}
                     >
-                        {open_desc ? "<< Ver menos" : "Ver más >>"}
+                        {open_desc ? "Ver menos." : "Ver más."}
                     </span>
                 </p>
             </div>
-        {:else}
-            <div>
-                <p class="has-text-light is-info has-text-justified">
-                    {description}
-                    <span
-                        class=" is-text is-small has-text-primary is-underlined is-clickable"
-                        on:click={() => (open_desc = !open_desc)}
-                    >
-                    {open_desc ? "<< Ver menos" : "Ver más >>"}
-                </span>
-                </p>
-            </div>
-        {/if}
 
 
         <div class="columns is-hidden-touch">
