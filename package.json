@@ -13,7 +13,7 @@
     "@sveltejs/kit": "next",
     "bulma": "^0.9.3",
     "sass": "^1.46.0",
-    "svelte": "^3.44.0",
+    "svelte": "^3.46.4",
     "svelte-preprocess": "^4.10.1",
     "trash-cli": "^5.0.0"
   },
