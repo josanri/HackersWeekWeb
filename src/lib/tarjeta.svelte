@@ -1,26 +1,37 @@
 <script>
     export let evento;
-    const { title, description, date, url, ubicacion, trofeos } = evento;
-    const has_desc = description.length === "";
-    $: short_desc = description.split().slice(0, 36);
+    const { title, description, date, url, ubicacion } = evento;
+    const has_desc = description !== undefined;
+    const description_words = has_desc && description.split(" ");
+    const description_overflow_length = 8;
+    const description_overflows =
+        has_desc && description_words.length > description_overflow_length;
+    const short_desc =
+        has_desc &&
+        description_words.slice(0, description_overflow_length).join(" ") +
+            (description_overflows ? "..." : "");
     let open_desc = false;
 </script>
 
 <div class="box has-background-grey-dark">
-    <h3 class="title has-text-primary mb-1">
+    <h3 class="title is-4 has-text-primary mb-1">
         {title}
     </h3>
-    <p class="has-text-light"><b>{date}</b></p>
-    <p class="has-text-light has-text-left">
-        <b>Ubicación</b>: {#if ubicacion == undefined}
-            Salón de Actos.
-        {:else}
+
+    {#if date !== undefined}
+        <p class="has-text-light"><b>{date}</b></p>
+    {/if}
+
+    {#if ubicacion !== undefined}
+        <p class="has-text-light has-text-left">
+            <b>Ubicación</b>:
             {ubicacion}
-        {/if}
-    </p>
+        </p>
+    {/if}
 
     {#if has_desc}
-        <p class="has-text-light is-info has-text-justified mb-3">
+        <b class="has-text-light">Descripción</b>
+        <p class="has-text-light is-info mb-3">
             {open_desc ? description : short_desc}
             <span
                 class=" is-text is-clickable is-small has-text-primary is-underlined is-clickable has-text-weight-bold"
@@ -31,15 +42,9 @@
         </p>
     {/if}
 
-    <div class="has-text-light has-text-left">
-        {#if trofeos !== undefined}
-            <b>Trofeos</b>: {trofeos}
-        {/if}
-    </div>
-
     {#if url !== undefined}
-        <a href={url} class="button buttadd is-primary is-rounded">
-            Inscríbete aquí
+        <a href={url} class="mt-3 button is-primary is-fullwidth">
+            Inscríbete
         </a>
     {/if}
 </div>
