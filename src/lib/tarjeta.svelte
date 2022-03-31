@@ -43,7 +43,7 @@
     {/if}
 
     {#if url !== undefined}
-        <a href={url} class="mt-3 button is-primary is-fullwidth">
+        <a href={url} class="mt-3 button is-primary">
             Inscríbete
         </a>
     {/if}
