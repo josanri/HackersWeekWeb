@@ -11,8 +11,5 @@
             <p>Twitter @ceetsii</p>
             <p>Instagram @ceetsii</p>
         </div>
-        <div class="column">
-            <b>Sponsors</b>
-        </div>
     </div>
 </footer>
