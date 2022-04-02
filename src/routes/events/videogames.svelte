@@ -7,6 +7,7 @@
 
 <svelte:head>
     <title>Videojuegos</title>
+    <meta name="description" content="Información sobre los videojuegos de la Hackers Week 8." />
 </svelte:head>
 
 <h3 class="title">Videojuegos</h3>
