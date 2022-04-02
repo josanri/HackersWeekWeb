@@ -1,46 +1,103 @@
 {
-    "conferences": [
-        {
-            "title": "NVIDIA",
-            "date": "15:30 - Martes 5 de abril",
-            "description": "Nvidia presentará su nueva gama de tarjetas gráficas, 4000 sin stock disponible."
-        },
-        {
-            "title": "Docker",
-            "date": "15:30 - Lunes 4 de abril",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat et tellus id tempor. Praesent quis nunc ante. Cras fringilla ultrices dui et feugiat. Donec ultricies lorem vitae mauris mollis tincidunt. Maecenas viverra, tortor nec porta tempor, mi sapien auctor nibh, in pulvinar enim diam quis nisl. Fusce hendrerit imperdiet arcu eu gravida. Vestibulum viverra mauris nec justo laoreet posuere. Suspendisse potenti. Nunc ornare sodales dapibus.",
-            "url": "http://www.google.com"
-        }
-    ],
-    "workshops": [
-        {
-            "title": "taller NVIDIA",
-            "date": "9:30 - Lunes 4 de abril",
-            "description": "bla bla"
-        }
-    ],
-    "videogames": [
-        {
-            "name": "Counter Strike: Global Offensive",
-            "date": "9:30 - Lunes 4 de abril",
-            "description": "bla bla"
-        },
-        {
-            "name": "League of Legends",
-            "date": "9:30 - Lunes 4 de abril",
-            "description": "bla bla"
-        }
-    ],
-    "rol": [
-        {
-            "name": "Shadow of Mordor",
-            "date": "9:30 - Lunes 4 de abril",
-            "description": "bla bla"
-        },
-        {
-            "name": "The Lost Ark",
-            "date": "9:30 - Lunes 6 de abril",
-            "description": "bla bla"
-        }
-    ]
+  "conferences": [
+    {
+      "title": "Introducción a la Computación Cuántica y aplicaciones - IBM",
+      "date": "10:45 - Lunes 4 de abril",
+      "description": "La Computación cuántica es ya una realidad, y va a cambiar la forma en que vemos y resolvemos los problemas. Durante esta sesión veremos los fundamentos de la computación cuántica, analizaremos sus posibles campos de aplicación, sus implicaciones con la ciberseguridad y veremos cómo acceder y ejecutar nuestros programas en los computadores cuánticos de IBM."
+    },
+    {
+      "title": "Identidad profesional y motivación + El maletín de herramientas del profesional de informática",
+      "date": "17:30 - Lunes 4 de abril",
+      "description": "La conferencia se partirá en dos subsesiones:\nIdentidad profesional y motivación\nHablar de motivación se ha convertido en una moda y de paso en un negocio para que ejércitos de asesores con el rimbombante nombre de “motivational coach” monten jugosos \nnegocios asesorando a profesionales, empresas y vendiendo libros.\n Sin embargo, en los últimos años se han realizado estudios mucho más serios y discretos sobre la motivación, y algunos de ellos específicos en la enseñanza de la informática. Uno de los indicios más interesantes que estos estudios han descubierto es la relación entre las creencias que los alumnos nuevos traen “de casa” sobre “el profesional que quieren ser” y la idea de profesional que se pretende conseguir en el plan de estudios. Cuando estas creencias personales coinciden con el plan de estudios, la motivación aparece por sí sola, pero lo normal es que estas creencias estén basadas en la cultura popular y no en la realidad de la profesión.\nEn esta charla no vamos a aburriros con los detalles de estas investigaciones, sino que se trata de dar una visión práctica para entender por qué me falta la motivación y qué puedo hacer para mejorarla.\n El maletín de herramientas del profesional de informática\nUna lista de herramientas y competencias profesionales que deberías llevar siempre contigo.\nSeguro que traes a clase tu portátil todos los días, pero ¿qué tienes instalado en él? Hace unos meses se me acercó un exalumno para agradecer un comentario que le hice hace años. Dijo que había despertado su conciencia profesional y que había empezado a seleccionar sus herramientas: un editor para grandes proyectos, un gestor de versiones, etc. Trabaja desde hace años y destaca por su alta productividad y fiabilidad, independientemente de sus conocimientos tecnológicos. Me llamó la atención que no usara uno de tantos editores comerciales que se ofertan actualmente basados en Web, sino que hubiera elegido Emacs, un editor de culto entre los programadores desde 1976, que no promocionan los influencers, pero del que te hablan los gurus al tomar un café. En su opinión, la toma de conciencia había sido muy importante en su éxito profesional.\nSi en otras profesiones existen herramientas, en informática las herramientas son tanto o más complicadas de usar que en cualquier profesión. La productividad depende mucho de tener la herramienta adecuada y saber usarla.\nEn esta conferencia no hablaré de mis herramientas preferidas, sino que descubriremos qué hace la vida más fácil a un profesional y le ahorra tiempo. Saber que necesitas algo despierta la necesidad de encontrarlo. Hablaremos de editores, consolas de comandos, gestores de versiones, transferencia de ficheros, escritorios remotos, gestión de trabajo, editores de esquemas, plantillas, etc. Adicionalmente también hablaremos de calidad, ética profesional y buenas prácticas, ingredientes necesarios para el éxito profesional y en los estudios."
+    },
+    {
+      "title": "Llegar el primero vs llegar más lejos - accenture",
+      "date": "10:45 - Martes 5 de abril",
+      "description": "DevOps es un conjunto de prácticas que transforma equipos y organizaciones para agilizar el tiempo a mercado y la capacidad para reaccionar a los cambios. Combinando el factor humano, organizativo, y el poder de la automatización de tareas repetitivas y la ingeniería de plataformas, DevOps da a los equipos de ingeniería todo 'el poder', y también 'la responsabilidad'. ¿Te atreves a descubrir cómo?"
+    },
+    {
+      "title": "Células madre en biomedicina: el futuro que ya está aquí",
+      "date": "11:00 - Martes 5 de abril",
+      "description": "La charla versará sobre la nueva situación que ha supuesto el empleo de las células madre para el tratamiento de lesiones o enfermedades que, hasta ahora, sólo se trataban mediante la medicina convencional o farmacológica. El desarrollo de la ingeniería de tejidos, para la que la aplicación de aquellas células es indispensable, ha revolucionado el campo de la reparación y/o sustitución de ciertos tejidos u órganos cuando éstos fallan o se encuentran dañados. Todo ello vislumbra un futuro prometedor en lo que se conoce como la Medicina Regenerativa y su posible aplicación personalizada, lo que se conoce como medicina de precisión.",
+      "ubicacion": "Aula 3.0.2"
+    },
+    {
+      "title": "La Informática y la Lingüística de la Mano: Aplicaciones y Técnicas Actuales de IA para Procesamiento del Lenguaje ",
+      "date": "17:30 - Martes 5 de abril",
+      "description": "En esta charla se van a ver las técnicas y métodos más populares actualmente aplicados al desarrollo de aplicaciones de procesamiento del lenguaje natural. Esto cubre técnicas y procesos como traducción automática, generación del lenguaje, chatbots, reconocimiento de voz; así como otras utilidades del campo de la lingüística que poseen valor para profesionales de diferentes ámbitos. También se presentarán proyectos actuales desarrollados por un grupo de investigación de la UMA con ejemplos reales de aplicabilidad."
+    },
+    {
+      "title": "El impacto de la agilidad en la carrera profesional",
+      "date": "10:45 - Miércoles 6 de abril",
+      "description": "Las organizaciones actuales, especialmente las relacionadas con el ámbito de la tecnología, conviven en un entorno dinámico y cambiante que requiere que estén capacitadas para trabajar de manera rápida y a adaptarse continuamente a los cambios. Es por esto por lo que la agilidad ha entrado a formar una parte importante de las compañías, no solo a la hora de acometer los proyectos, sino como parte de la filosofía y valores de la organización. ¿Cómo afecta esta nueva realidad a las diferentes carreras profesionales? ¿Cómo deben los futuros profesionales prepararse para esta nueva realidad? A lo largo de esta charla hablaremos de la agilidad y cómo impacta en las carreras profesionales de hoy en día"
+    },
+    {
+      "title": "LiFi en el sector salud, aplicación y algunos ejemplos",
+      "date": "17:30 - Miércoles 6 de abril",
+      "description": "Se hará una breve presentación de la tecnología LiFi, aplicación de las tecnologías TIC dentro del Salud, que se está haciendo y hacia dónde va, terminando con la aplicación de la tecnología LiFi en el sector, qué acercamientos a la tecnología se le está dando desde la empresa Datlight y algunos ejemplos fuera de España."
+    },
+    {
+      "title": "Málaga tecnológica: ¿morir de éxito o pasar de nivel?",
+      "date": "10:45 - Jueves 7 de abril",
+      "description": "Mesa redonda sobre la nueva situación de Málaga como atracción de empresas tecnológicas y en particular en el mundo de la Informática.\nModera: Nuria Triguero. Redactora Diario Sur. Coordinadora suplemento Dinero y Empleo.\nParticipantes:\nBernardo Quintero. CEO Virus Total. Vicepresidente Primero del Comité Ejecutivo de la Fundación Instituto Ricardo Valle de Innovación (INNOVA IRV).\nMar López. Senior Manager Accenture. Ex-jefa de la Unidad de Ciberseguridad en Moncloa (Dpto Seguridad Nacional).\nJavier López. Vicerrector de Empresa, Territorio y Transformación Digital. Director del NICKS Lab. Presidente de RENIC (Red de Excelencia Nacional de Investigación en Ciberseguridad).\nRaúl Jiménez Jiménez. Director General de la Agencia Digital de Andalucía."
+    },
+    {
+      "title": "Firebase, tu backend as a service más completo - ",
+      "date": "17:30 - Jueves 7 de abril",
+      "description": "Firebase es un producto de Google que nos ofrece un backend con un conjunto de servicios muy completo para desarrollar nuestras aplicaciones. En esta charla revisaremos los servicios más importantes y analizaremos todas sus posibilidades y costes para usarlo en el desarrollo de tus aplicaciones web y móviles."
+    },
+    {
+      "title": "Bitcoin meets Business Inteligence - Ismael Pineda Palencia",
+      "date": "17:30 - Jueves 7 de abril",
+      "description": "Discover the basics of data analytics and visual communication with a business intelligence tool! In this practical guided workshop, you’ll be quickly immersed in the life of a Data Analyst through solving a real business problem by using Tableau to build an interactive reporting dashboard fed with real data from the crypto world. The hole session has strictly academical purposes, none of the displayed nor mentioned content constitutes financial advice, legal advice or any other kind advice. Investing and trading is a risk activity that lead to major losses so participants should consult a financial advisor before making any economical decision. The data used during this session has no warranties of any exact accuracy neither so participants should use it solely at their own risk and discretion.",
+      "ubicacion": "Laboratorio 3.1.11"
+    }
+  ],
+  "workshops": [
+    {
+      "title": "Taller NoSQL - accenture",
+      "date": "17:30 - Martes 5 de abril",
+      "description": "En este taller realizaremos la transformación de una aplicación desarrollada sobre una base de datos relacional a una documental, identificando las modificaciones a realizar en el código de la misma, la aproximación al modelo de datos, los distintos paradigmas a utilizar y el impacto real de cada uno de los cambios.",
+      "ubicacion": "Laboratorio 3.1.11"
+    },
+    {
+      "title": "Taller Android I: from zero to hero - eDreams",
+      "date": "10:45 - Miércoles 6 de abril",
+      "description": "En este taller serás capaz de aprender a crear tu propia aplicación Android desde cero utilizando una arquitectura limpia, sólida y escalable. Participa y podrás ganar un Google Nest.",
+      "ubicacion": "Laboratorio 3.1.11"
+    },
+    {
+      "title": "Taller Android II: from zero to hero - eDreams",
+      "date": "17:30 - Miércoles 6 de abril",
+      "description": "Continua la sesión de la mañana del taller de Android Studio y aprende más de principios de la arquitectura Android, la conexión de servicios y más.",
+      "ubicacion": "Laboratorio 3.1.11"
+    }
+  ],
+  "videogames": [
+    {
+        "title": "Juegos y Actividades presenciales",
+        "url": "http://u.uma.es/clY"
+    },
+    {
+        "title": "OSU!",
+        "date": "18:00 - Viernes 8 de abril",
+        "url": "http://u.uma.es/cl0",
+        "ubicacion": "Online"
+    },
+    {
+        "title": "League Of Legends",
+        "date": "12:00 - Sábado 9 de abril",
+        "url": "http://u.uma.es/cjq",
+        "ubicacion": "Online"
+    },
+    {
+        "title": "Rocket League",
+        "date": "12:00 - Domingo 10 de abril",
+        "url": "http://u.uma.es/cly",
+        "ubicacion": "Online"
+    }
+  ], 
+  "rol": [
+
+  ]
 }
