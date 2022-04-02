@@ -2,23 +2,52 @@
 
 [![Build and Deploy to Pages](https://github.com/ConsejoInfUMA/HackersWeekWeb/actions/workflows/main.yml/badge.svg)](https://github.com/ConsejoInfUMA/HackersWeekWeb/actions/workflows/main.yml)
 
-## Developing
+<a href="https://bulma.io">
+  <img
+    src="https://bulma.io/images/made-with-bulma.png"
+    alt="Made with Bulma"
+    width="128"
+    height="24">
+</a>
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Desarrollo
+
+Una vez clonado el repositorio instala las dependencias con `npm i` e inicia el development server:
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+La web está hecha con [SvelteKit](https://kit.svelte.dev/), en caso de dudas mira la [documentación oficial](https://kit.svelte.dev/docs/introduction) o haz el [tutorial de Svelte](https://svelte.dev/tutorial/basics).
 
-This uses the adapter-auto for SvelteKit, which detects Vercel and runs adapter-vercel on your behalf.
+## Compilación
+
+Compila el proyecto y visualiza una versión de producción:
 
 ```bash
 npm run build
+npm run preview
 ```
 
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+## Actualización
+
+El favicon se encuentra en `static/favicon.png` y es una imagen png 128x128.
+
+### Datos
+
+Los datos de las actividades se guardan en `src/lib/datos.json`. Los datos podrían separarse en varios archivos como `src/lib/datos/conf.json`. Los datos se guardan dentro de 3 arrays llamados `"conferences"`, `"workshops"` y `"videogames"`, el array `"rol"` puede añadirse en caso de que se planifiquen partidas.
+
+Cada evento consiste en un objeto JSON con los campos:
+- `"title"`: Nombre del evento
+- `"description"`: Descripción del evento
+- `"url"`: Enlace al evento
+- `"date"`: Fecha y hora del evento
+- `"ubicacion"`: Ubicación del evento
+
+El componente `src/lib/tarjeta` controla la forma en la que se presenta la información.
+
+### Estilo
+
+El estilo de la página se puede cambiar editando `src/app.scss` (estilo global, fuentes, etc) y `src/variables.scss` (colores, tamaños, etc.). La web usa [Bulma](https://bulma.io/) como framework css. Para ver la lista completa de variables que puedes editar visita la [documentación sobre personalización](https://bulma.io/documentation/customize/variables/) de Bulma.
+
+Actualmente la web usa los colores corporativos de la Hackers Week y algunos colores de la paleta [Catppuccin](https://github.com/catppuccin/catppuccin). En el futuro se podrían tomar más colores de esta paleta, escoger otra o prescindir de ella.
