@@ -14,11 +14,7 @@
         {
             href: "/videogames",
             name: "Videojuegos",
-        },
-        {
-            href: "/rol",
-            name: "Rol",
-        },
+        }
     ];
 
     let isActive = false;
