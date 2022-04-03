@@ -1,8 +1,6 @@
 <script>
-    import datos from "$lib/datos.json";
+    import conferences from "$lib/data/conferences.json";
     import Tarjeta from "$lib/tarjeta.svelte";
-
-    const { conferences } = datos;
 </script>
 
 <svelte:head>

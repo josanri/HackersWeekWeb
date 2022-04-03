@@ -35,7 +35,7 @@ El favicon se encuentra en `static/favicon.png` y es una imagen png 128x128.
 
 ### Datos
 
-Los datos de las actividades se guardan en `src/lib/datos.json`. Los datos podrían separarse en varios archivos como `src/lib/datos/conf.json`. Los datos se guardan dentro de 3 arrays llamados `"conferences"`, `"workshops"` y `"videogames"`, el array `"rol"` puede añadirse en caso de que se planifiquen partidas.
+Los datos de las actividades se guardan en el directorio `src/lib/data/`. Los datos se encuentran en varios archivos llamados `src/lib/datos/conferences.json`, `src/lib/datos/workshops.json` y `src/lib/datos/videogames.json`. Los datos se guardan dentro de un array compuesto por objetos de tipo evento. El archivo `src/lib/datos/rol.json` puede añadirse en caso de que se planifiquen partidas.
 
 Cada evento consiste en un objeto JSON con los campos:
 - `"title"`: Nombre del evento

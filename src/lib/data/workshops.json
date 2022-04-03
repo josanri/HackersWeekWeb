@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Taller NoSQL - accenture",
+    "date": "17:30 - Martes 5 de abril",
+    "description": "En este taller realizaremos la transformación de una aplicación desarrollada sobre una base de datos relacional a una documental, identificando las modificaciones a realizar en el código de la misma, la aproximación al modelo de datos, los distintos paradigmas a utilizar y el impacto real de cada uno de los cambios.",
+    "ubicacion": "Laboratorio 3.1.11",
+    "url": "https://forms.gle/fQ6kw7Qdeu3Sj7no7"
+  },
+  {
+    "title": "Taller Android I: from zero to hero - eDreams",
+    "date": "10:45 - Miércoles 6 de abril",
+    "description": "En este taller serás capaz de aprender a crear tu propia aplicación Android desde cero utilizando una arquitectura limpia, sólida y escalable. Participa y podrás ganar un Google Nest.",
+    "ubicacion": "Laboratorio 3.1.11",
+    "url": "https://forms.gle/NSvQvjTvrSAajHpK8"
+  },
+  {
+    "title": "Taller Android II: from zero to hero - eDreams",
+    "date": "17:30 - Miércoles 6 de abril",
+    "description": "Continua la sesión de la mañana del taller de Android Studio y aprende más de principios de la arquitectura Android, la conexión de servicios y más.",
+    "ubicacion": "Laboratorio 3.1.11",
+    "url": "https://forms.gle/zkdPvKmfmn6KgrCF6"
+  }
+]

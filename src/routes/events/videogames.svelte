@@ -1,8 +1,6 @@
 <script>
-    import datos from "$lib/datos.json";
+    import videogames from "$lib/data/videogames.json";
     import Tarjeta from "$lib/tarjeta.svelte";
-
-    const { videogames } = datos;
 </script>
 
 <svelte:head>
