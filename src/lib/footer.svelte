@@ -4,9 +4,8 @@
             <b>CEETSII</b>
             <ul>
                 <li>
-                    Correo: <a href="mailto:consejoinf@uma.es"
-                        >consejoinf@uma.es</a
-                    >
+                    Correo: <a href="mailto:consejoinfuma@gmail.com"
+                        >consejoinfuma@gmail.com</a>
                 </li>
                 <li>Despacho: Complejo Tecnológico - 3.2.B.1</li>
             </ul>

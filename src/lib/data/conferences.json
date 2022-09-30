@@ -1,62 +1,6 @@
 [
   {
-    "title": "Introducción a la Computación Cuántica y aplicaciones - IBM",
-    "date": "10:45 - Lunes 4 de abril",
-    "ubicacion": "Salón de actos",
-    "description": "La Computación cuántica es ya una realidad, y va a cambiar la forma en que vemos y resolvemos los problemas. Durante esta sesión veremos los fundamentos de la computación cuántica, analizaremos sus posibles campos de aplicación, sus implicaciones con la ciberseguridad y veremos cómo acceder y ejecutar nuestros programas en los computadores cuánticos de IBM."
-  },
-  {
-    "title": "El malware ni se crea ni se destruye, simplemente se transforma (y nos transforma)",
-    "date": "17:30 - Lunes 4 de abril",
-    "ubicacion": "Salón de actos",
-    "description": "Llevamos 30 años conviviendo con el malware y unos 20 con su versión menos lúdica y más orientada al lucro. Soportamos desde hace unos 10 años la ciberguerra. Desde hace unos cinco, hemos sufrido el impacto del ransomware en toda nuestra vida cotidiana ultradigitalizada y descuidada.\nEs muy ingenuo pensar que no lo hemos visto venir: primero al convertido todo en software, después al otorgarle todo el poder y finalmente al volvernos dependientes. ¿Cómo no va a ser el software el objetivo más preciado de los ataques? ¿Hemos evolucionado en nuestra actitud y defensas de forma acorde a estas concesiones otorgadas al mundo digital? Está claro que el malware ha cambiado, pero ¿lo hemos hecho nosotros? ¿Cómo nos ha impactado su evolución? ¿Hemos aprendido algo? ¿Hemos tirado la toalla? ¿Cómo lo están sobrellevando los diferentes actores de la industria?\nEl malware ha cambiado y nos ha cambiado en algunos aspectos para bien, otros para mal y en otros estamos exactamente igual que hace 20 años. Vamos a ofrecer los ejemplos más significativos de cada caso, un histórico de referencias técnicas de malware (sin ejercicios de nostalgia), su impacto entonces y situaciones análogas recientes para analizar la evolución de la industria. Cómo lo hicimos entonces y cómo reaccionamos ahora."
-  },
-  {
-    "title": "Llegar el primero vs llegar más lejos - accenture",
-    "date": "10:45 - Martes 5 de abril",
-    "ubicacion": "Salón de actos",
-    "description": "DevOps es un conjunto de prácticas que transforma equipos y organizaciones para agilizar el tiempo a mercado y la capacidad para reaccionar a los cambios. Combinando el factor humano, organizativo, y el poder de la automatización de tareas repetitivas y la ingeniería de plataformas, DevOps da a los equipos de ingeniería todo 'el poder', y también 'la responsabilidad'. ¿Te atreves a descubrir cómo?"
-  },
-  {
-    "title": "Células madre en biomedicina: el futuro que ya está aquí",
-    "date": "11:00 - Martes 5 de abril",
-    "description": "La charla versará sobre la nueva situación que ha supuesto el empleo de las células madre para el tratamiento de lesiones o enfermedades que, hasta ahora, sólo se trataban mediante la medicina convencional o farmacológica. El desarrollo de la ingeniería de tejidos, para la que la aplicación de aquellas células es indispensable, ha revolucionado el campo de la reparación y/o sustitución de ciertos tejidos u órganos cuando éstos fallan o se encuentran dañados. Todo ello vislumbra un futuro prometedor en lo que se conoce como la Medicina Regenerativa y su posible aplicación personalizada, lo que se conoce como medicina de precisión.",
-    "ubicacion": "Aula 3.0.2"
-  },
-  {
-    "title": "La Informática y la Lingüística de la Mano: Aplicaciones y Técnicas Actuales de IA para Procesamiento del Lenguaje ",
-    "date": "17:30 - Martes 5 de abril",
-    "ubicacion": "Salón de actos",
-    "description": "En esta charla se van a ver las técnicas y métodos más populares actualmente aplicados al desarrollo de aplicaciones de procesamiento del lenguaje natural. Esto cubre técnicas y procesos como traducción automática, generación del lenguaje, chatbots, reconocimiento de voz; así como otras utilidades del campo de la lingüística que poseen valor para profesionales de diferentes ámbitos. También se presentarán proyectos actuales desarrollados por un grupo de investigación de la UMA con ejemplos reales de aplicabilidad."
-  },
-  {
-    "title": "El impacto de la agilidad en la carrera profesional",
-    "date": "10:45 - Miércoles 6 de abril",
-    "ubicacion": "Salón de actos",
-    "description": "Las organizaciones actuales, especialmente las relacionadas con el ámbito de la tecnología, conviven en un entorno dinámico y cambiante que requiere que estén capacitadas para trabajar de manera rápida y a adaptarse continuamente a los cambios. Es por esto por lo que la agilidad ha entrado a formar una parte importante de las compañías, no solo a la hora de acometer los proyectos, sino como parte de la filosofía y valores de la organización. ¿Cómo afecta esta nueva realidad a las diferentes carreras profesionales? ¿Cómo deben los futuros profesionales prepararse para esta nueva realidad? A lo largo de esta charla hablaremos de la agilidad y cómo impacta en las carreras profesionales de hoy en día"
-  },
-  {
-    "title": "LiFi en el sector salud, aplicación y algunos ejemplos",
-    "date": "17:30 - Miércoles 6 de abril",
-    "ubicacion": "Salón de actos",
-    "description": "Se hará una breve presentación de la tecnología LiFi, aplicación de las tecnologías TIC dentro del Salud, que se está haciendo y hacia dónde va, terminando con la aplicación de la tecnología LiFi en el sector, qué acercamientos a la tecnología se le está dando desde la empresa Datlight y algunos ejemplos fuera de España."
-  },
-  {
-    "title": "Málaga tecnológica: ¿morir de éxito o pasar de nivel?",
-    "date": "10:45 - Jueves 7 de abril",
-    "ubicacion": "Salón de actos",
-    "description": "Mesa redonda sobre la nueva situación de Málaga como atracción de empresas tecnológicas y en particular en el mundo de la Informática.\nModera: Nuria Triguero. Redactora Diario Sur. Coordinadora suplemento Dinero y Empleo.\nParticipantes:\nBernardo Quintero. CEO Virus Total. Vicepresidente Primero del Comité Ejecutivo de la Fundación Instituto Ricardo Valle de Innovación (INNOVA IRV).\nMar López. Senior Manager Accenture. Ex-jefa de la Unidad de Ciberseguridad en Moncloa (Dpto Seguridad Nacional).\nJavier López. Vicerrector de Empresa, Territorio y Transformación Digital. Director del NICKS Lab. Presidente de RENIC (Red de Excelencia Nacional de Investigación en Ciberseguridad).\nRaúl Jiménez Jiménez. Director General de la Agencia Digital de Andalucía."
-  },
-  {
-    "title": "¿Tu app con Flutter web?",
-    "date": "17:30 - Jueves 7 de abril",
-    "ubicacion": "Salón de actos",
-    "description": "En esta charla veremos si el framework multiplataforma Flutter puede ser tu elección para construir tu app en web dependiendo de las funcionalidades que necesites, además de ver algunos consejos sobre cómo desarrollar en esta plataforma."
-  },
-  {
-    "title": "Bitcoin meets Business Inteligence - Ismael Pineda Palencia",
-    "date": "17:30 - Jueves 7 de abril",
-    "description": "Discover the basics of data analytics and visual communication with a business intelligence tool! In this practical guided workshop, you’ll be quickly immersed in the life of a Data Analyst through solving a real business problem by using Tableau to build an interactive reporting dashboard fed with real data from the crypto world. The hole session has strictly academical purposes, none of the displayed nor mentioned content constitutes financial advice, legal advice or any other kind advice. Investing and trading is a risk activity that lead to major losses so participants should consult a financial advisor before making any economical decision. The data used during this session has no warranties of any exact accuracy neither so participants should use it solely at their own risk and discretion.",
-    "ubicacion": "Laboratorio 3.1.11"
+    "title": "🚧 Sabíamos que eres un cotilla, pero no tanto 🚧",
+    "description": "Sección pendiente de actualización, más información próximamente."
   }
 ]

@@ -32,10 +32,10 @@
     <div class="navbar-brand">
         <!-- svelte-ignore -->
         <a class="navbar-item" href="{base}/">
-            <h1>HW&lt;&gt;8</h1>
+            <h1>HW&lt;&gt;9</h1>
         </a>
         <!-- svelte-ignore a11y-missing-attribute -->
-        <a
+        <!--<a
             role="button"
             class="navbar-burger {activeClass}"
             aria-label="menu"
@@ -56,6 +56,6 @@
                     >{name}
                 </a>
             {/each}
-        </div>
+        </div>-->
     </div>
 </nav>

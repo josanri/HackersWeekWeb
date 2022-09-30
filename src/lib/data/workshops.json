@@ -1,30 +1,6 @@
 [
   {
-    "title": "Taller NoSQL - accenture",
-    "date": "17:30 - Martes 5 de abril",
-    "description": "En este taller realizaremos la transformación de una aplicación desarrollada sobre una base de datos relacional a una documental, identificando las modificaciones a realizar en el código de la misma, la aproximación al modelo de datos, los distintos paradigmas a utilizar y el impacto real de cada uno de los cambios.",
-    "ubicacion": "Laboratorio 3.1.11",
-    "url": "https://forms.gle/fQ6kw7Qdeu3Sj7no7"
-  },
-  {
-    "title": "Taller Android I: from zero to hero - eDreams",
-    "date": "10:45 - Miércoles 6 de abril",
-    "description": "En este taller serás capaz de aprender a crear tu propia aplicación Android desde cero utilizando una arquitectura limpia, sólida y escalable. Participa y podrás ganar un Google Nest.",
-    "ubicacion": "Laboratorio 3.1.11",
-    "url": "https://forms.gle/NSvQvjTvrSAajHpK8"
-  },
-  {
-    "title": "Taller Android II: from zero to hero - eDreams",
-    "date": "17:30 - Miércoles 6 de abril",
-    "description": "Continua la sesión de la mañana del taller de Android Studio y aprende más de principios de la arquitectura Android, la conexión de servicios y más.",
-    "ubicacion": "Laboratorio 3.1.11",
-    "url": "https://forms.gle/NSvQvjTvrSAajHpK8"
-  },
-  {
-    "title": "Workshop - Bitcoin meets Business Inteligence - Ismael Pineda Palencia",
-    "date": "17:30 - Jueves 7 de abril",
-    "description": "Discover the basics of data analytics and visual communication with a business intelligence tool! In this practical guided workshop, you’ll be quickly immersed in the life of a Data Analyst through solving a real business problem by using Tableau to build an interactive reporting dashboard fed with real data from the crypto world. The hole session has strictly academical purposes, none of the displayed nor mentioned content constitutes financial advice, legal advice or any other kind advice. Investing and trading is a risk activity that lead to major losses so participants should consult a financial advisor before making any economical decision. The data used during this session has no warranties of any exact accuracy neither so participants should use it solely at their own risk and discretion.",
-    "ubicacion": "Laboratorio 3.1.11",
-    "url": "https://forms.gle/zkdPvKmfmn6KgrCF6"
+    "title": "🔨 Aprende una nueva tecnología emergente o adéntrate en una existente 🔨",
+    "description": "Próximamente en los laboratorios de la ETSII."
   }
 ]
