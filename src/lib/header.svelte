@@ -1,8 +1,13 @@
 <script>
     import { page } from "$app/stores";
     import { base } from "$app/paths";
-
+    
     const links = [
+        {
+            href: "/aboutus",
+            name: "¿Qué es la Hackers Week?",
+        }
+        /*,
         {
             href: "/conferences",
             name: "Conferencias",
@@ -14,7 +19,7 @@
         {
             href: "/videogames",
             name: "Videojuegos",
-        }
+        }*/
     ];
 
     let isActive = false;
@@ -35,7 +40,7 @@
             <h1>HW&lt;&gt;9</h1>
         </a>
         <!-- svelte-ignore a11y-missing-attribute -->
-        <!--<a
+        <a
             role="button"
             class="navbar-burger {activeClass}"
             aria-label="menu"
@@ -56,6 +61,6 @@
                     >{name}
                 </a>
             {/each}
-        </div>-->
+        </div>
     </div>
 </nav>
