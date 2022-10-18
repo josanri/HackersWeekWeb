@@ -18,6 +18,12 @@ body {
     flex-direction: column;
 }
 
+#svelte {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 h1, h2 {
     font-family: "nevis";
 }
