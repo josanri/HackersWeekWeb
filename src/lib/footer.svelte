@@ -1,4 +1,5 @@
-<footer class="footer has-background-black has-text-light">
+<footer class="footer has-background-black" style="position: relative; margin-top: auto; wifth: 100%; bottom: 0;">
+    <div class="content has-text-light">
     <div class="columns mx-4">
         <div class="column has-text-left">
             <b>CEETSII</b>
@@ -25,5 +26,6 @@
                 </li>
             </ul>
         </div>
+    </div>
     </div>
 </footer>
