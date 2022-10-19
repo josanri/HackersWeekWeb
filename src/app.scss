@@ -18,6 +18,17 @@ body {
     flex-direction: column;
 }
 
+table {
+    width: 100%;
+    th {
+        background-color: $primary;
+        padding: 0.5rem;
+    }
+    td {
+        padding: 0px;
+    }
+}
+
 .footer
 {
     position: relative;

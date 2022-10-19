@@ -4,20 +4,24 @@
     
     const links = [
         {
-            href: "/aboutus",
+            href: "info/aboutus",
             name: "¿Qué es la Hackers Week?",
+        },
+        {
+            href: "info/horario",
+            name: "Horario",
         }
         /*,
         {
-            href: "/conferences",
+            href: "events/conferences",
             name: "Conferencias",
         },
         {
-            href: "/workshops",
+            href: "events/workshops",
             name: "Talleres",
         },
         {
-            href: "/videogames",
+            href: "events/videogames",
             name: "Videojuegos",
         }*/
     ];
@@ -57,7 +61,7 @@
             {#each links as { href, name }}
                 <a
                     class="navbar-item"
-                    href="{base}/events{href}"
+                    href="{base}/{href}"
                     >{name}
                 </a>
             {/each}
