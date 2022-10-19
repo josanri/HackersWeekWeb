@@ -6,12 +6,12 @@
         {
             href: "info/aboutus",
             name: "¿Qué es la Hackers Week?",
-        },
+        }/*,
         {
             href: "info/horario",
             name: "Horario",
         }
-        /*,
+        ,
         {
             href: "events/conferences",
             name: "Conferencias",
