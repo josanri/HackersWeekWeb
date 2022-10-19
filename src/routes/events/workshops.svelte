@@ -5,7 +5,7 @@
 
 <svelte:head>
     <title>Talleres</title>
-    <meta name="description" content="Información sobre los talleres de la Hackers Week 8." />
+    <meta name="description" content="Información sobre los talleres de la Hackers Week 9." />
 </svelte:head>
 
 <h3 class="title">Talleres</h3>

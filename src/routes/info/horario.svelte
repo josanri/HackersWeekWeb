@@ -8,7 +8,7 @@
 
 <svelte:head>
     <title>Horario</title>
-    <meta name="description" content="Información sobre los horarios de conferencias, talleres y videojuegos de la Hackers Week 9." />
+    <meta name="description" content="Información sobre los horarios de conferencias, talleres y videojuegos de la Hackers Week 9."/>
 </svelte:head>
 
 <div class="container p-6 pt-6">

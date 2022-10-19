@@ -5,7 +5,7 @@
 
 <svelte:head>
     <title>¿Qué es la Hackers Week?</title>
-	<meta name="description" content="Información sobre las conferencias de la Hackers Week 8." />
+	<meta name="description" content="Información sobre las conferencias de la Hackers Week 9." />
 </svelte:head>
 
 
