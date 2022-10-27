@@ -10,8 +10,13 @@
         {
             href: "info/horario",
             name: "Horario",
-        }
+        }*/
         ,
+        {
+            href: "events/hackersdays",
+            name: "Hackers Days",
+        },
+        /*
         {
             href: "events/conferences",
             name: "Conferencias",

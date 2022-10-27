@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Los informáticos son los nuevos filósofos, Francisco Jose Vico Vela ",
+    "date": "27-10-23",
+    "description": "A medida que la informática ha evolucionado en los últimos decenios, también ha revolucionado los hábitos de las personas y las formas de organización social. Wikipedia, el blockchain, las redes sociales y los foros, Wikileaks, los progresos y amenazas de la IA, la oportunidad de la computación cuántica, los dispositivo móviles y la vigilancia masiva, la desinformación..., son todos conceptos recientes, avances tecnológicos que transforman las comunidades humanas. Pero, ¿hacia dónde?, ¿cuál es nuestro rol?",
+    "ubicacion" : "3.0.9"
+  },
+  {
+    "title": "Refurbishing hacks, Marcos Arjona, VirusTotal",
+    "date": "27-10-23",
+    "description": "La sociedad afronta una serie de transformaciones provocadas por el desarrollo tecnológico para las cuales nuestra capacidad de adaptación resulta incierta. Además, las tecnologías de la información y los avances de nuevos paradigmas innovadores imponen ya su propio ritmo al paso de nuestra civilización. Son muchos los indicios y las evidencias que se nos presentan a diario, enfrentándonos a multitud de retos que imponen una necesidad de renovación imprevista. Para ello, a través de ejemplos reales donde se aplica la Inteligencia Artificial, la Realidad Virtual o el Big Data, podemos entender por qué dichos cambios nos afectan y qué opciones nos quedan para poder afrontarlos de forma eficiente, encontrando o renovando los hacks que sustenten y justifiquen nuestro papel en el futuro.",
+    "ubicacion" : "3.0.2"
+  },
+  {
+    "title": "Y luego... ¿qué?, Charla de Egresados de Ingeniería de la Salud, CEEIBIS",
+    "date": "27-10-23",
+    "description": "Las dudas sobre el futuro están a la orden del día, más aún cuando el grado que estás estudiando es bastante reciente y abarca tantas salidas laborales. Esto también da lugar a la indecisión por parte del alumnado y a que se pregunte: y ahora...¿qué?. En esta charla nuestros 6 ponentes, egresados de Ingeniería de la Salud, nos contarán acerca de su trayectoria académica y laboral una vez acabado este grado. Nos informarán sobre su experiencia personal, obstáculos, desafíos con el objetivo de motivar y orientar a los alumnos y alumnas de Ingeniería de la Salud.",
+    "ubicacion" : "3.0.7"
+  },
+  {
+    "title": "Identidad profesional y motivación, Guillermo Pérez Trabado",
+    "date": "27-10-23",
+    "description": "Hablar de motivación se ha convertido en una moda y de paso en un negocio para que ejércitos de asesores ('motivational coachs') monten jugosos negocios asesorando a profesionales, empresas y vendiendo libros. Sin embargo, en los últimos años se han realizado estudios mucho más serios y discretos sobre la motivación, algunos de ellos específicos en la enseñanza de la informática.  Uno de los resultados más interesantes que estos estudios han descubierto es la relación entre las 'creencias' que los alumnos nuevos traen 'de casa' sobre 'qué es un profesional de la informática' y su nivel de motivación.\nEn esta charla vamos a reflexionar sobre lo que significa realmente dedicarse a la informática y sobre todo comentaremos conceptos básicos muy importantes que se deberían conocer sobre la informática real antes de empezar a estudiar informática. Conceptos que no tienen que ir sobre informática, sino sobre el funcionamiento del propio mundo.",
+    "ubicacion" : "3.0.8"
+  },
+  {
+    "title": "Responsabilidad compartida en Seguridad en Cloud Publico, Oracle, Manuel Avilés, Antonio Gómez",
+    "date": "27-10-23",
+    "description": "Concienciar a la audiencia de que en términos de seguridad la adopción del Cloud Público implica una responsabilidad por parte del proveedor pero también por parte de quienes implementan los servicios; el Cloud público está siendo adoptado por empresas que confían en las capacidades de seguridad de los hiperescalares, y la seguridad se implanta entre el proveedor Cloud y el cliente. Esto lo podemos ejemplarizar muy bien con caso concretos como almacenamiento público en AWS expuesto a terceros o con casos de credenciales expuestas en los repositorios de código fuente de alguna empresas.",
+    "ubicacion" : "Sala de Grados C"
+  }
+]

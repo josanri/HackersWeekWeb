@@ -3,7 +3,7 @@
     const { title, description, date, url, ubicacion } = evento;
     const has_desc = description !== undefined;
     const description_words = has_desc && description.split(" ");
-    const description_overflow_length = 8;
+    const description_overflow_length = 48;
     const description_overflows =
         has_desc && description_words.length > description_overflow_length;
     const short_desc =
@@ -19,7 +19,7 @@
     </h3>
 
     {#if date !== undefined}
-        <p class="has-text-light"><b>{date}</b></p>
+        <p class="has-text-light"><b>Fecha</b>: <b>{date}</b></p>
     {/if}
 
     {#if ubicacion !== undefined}
@@ -34,10 +34,12 @@
         <p class="has-text-light is-info mb-3">
             {open_desc ? description : short_desc}
             <span
-                class=" is-text is-clickable is-small has-text-primary is-underlined is-clickable has-text-weight-bold"
+                class=" is-text is-clickable is-small has-text-primary is-underlined is-clickable has-text-weight-bold is-flex is-justify-content-center pt-5"
                 on:click={() => (open_desc = !open_desc)}
             >
-                {open_desc ? "Ver menos." : "Ver más."}
+            {#if description !== short_desc}
+                <button class ="column is-narrow is-centered button is-primary is-rounded is-small is-fullwidth">{open_desc ? "Ver menos" : "Ver más"}</button>
+            {/if}
             </span>
         </p>
     {/if}
