@@ -10,5 +10,23 @@
     "date": "30-11-23",
     "description": "Si en otras profesiones existen herramientas, en informática las herramientas son tanto o más complicadas de usar que en cualquier profesión. La productividad depende mucho de tener la herramienta adecuada y saber usarla. En esta conferencia descubriremos qué hace la vida más fácil a un profesional y le ahorra tiempo, saber que necesitas algo despierta la necesidad de encontrarlo. Hablaremos de editores, consolas de comandos, gestores de versiones, transferencia de ficheros, escritorios remotos, gestión de trabajo, editores de esquemas, plantillas, etc. Adicionalmente también hablaremos de calidad, ética profesional y buenas prácticas, ingredientes necesarios para el éxito profesional y en los estudios.",
     "ubicacion" : "TBA"
+  },
+  {
+    "title": "Blockchain aplicado a las criptomonedas: Los casos de Bitcoin y Ethereum",
+    "date": "30-11-23",
+    "description": "La charla será llevada a cabo por los ponentes Francisco José Jaime Rodríguez e Isaac Agudo Ruiz, profesores del departamento de Lenguajes y Ciencias de la Computación de la Universidad de Málaga. Se tratarán las bases de la tecnología Blockchain aplicada a la implementación de las criptomonedas, la principal área de aplicación en la que ha tenido éxito dicha tecnología. Si bien los conceptos de descentralización e igualdad entre nodos son aplicables en todos los casos, diferentes implementaciones de la tecnología Blockchain pueden dar lugar a diferencias inherentes para cada caso particular. Por este motivo, se tratarán las que probablemente sean las dos instancias más existosas de Blockchain: Bitcoin y Ethereum. Se hablará del funcionamiento de las dos criptomonedas y de cómo Blockchain hace posible la existencia de ambas, con el objetivo de despertar el interés por dicha tecnología en los oyentes participantes. También se presentarán las bases de los contratos inteligentes y la arquitectura de lo que se conoce como Web3.",
+    "ubicacion" : "TBA"
+  }
+  ,{
+    "title": "Testeando la calidad del Software, herramientas de auditoría de seguridad, Javier Fernandez Morales y Víctor González Vázquez",
+    "date": "30-11-23",
+    "description": "En la charla veremos la importancia de conceptualizar la calidad desde el inicio del proceso de desarrollo como parte fundamental del desarrollo Agile o DeVOps, y como son esenciales las pruebas de análisis de seguridad del código desarrollado y diferentes herramientas podemos usar para ello.",
+    "ubicacion" : "TBA"
+  },
+  {
+    "title": "¿Cómo puede la ingeniería biomédica ayudar en la preparación de tratamientos contra el cáncer? El caso de éxito del robot Pharmoduct, Pedro Ángel De La Fuente Crespo",
+    "date": "30-11-23",
+    "description": "Dedalus es la multinacional líder en soluciones TIC para sanidad y diagnóstico clínico en Europa. La oncología es una de sus áreas de investigación y desarrollo más punteras. En esta charla presentaremos Pharmoduct que forma parte de una nueva generación de robots para acelerar la preparación de tratamientos anticáncer. Presentaremos cómo la investigación en salud puede conducir a sistemas y soluciones tecnológicas innovadoras que ayudan a reducir los tiempos de espera de los pacientes y permiten la manipulación de tratamientos de quimioterapia en ambientes ambulatorios de forma segura, evitando manipulaciones directas de productos de alta toxicidad por parte del equipo técnico.",
+    "ubicacion" : "TBA"
   }
 ]
