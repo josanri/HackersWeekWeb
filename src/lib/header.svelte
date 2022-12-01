@@ -46,7 +46,7 @@
     <div class="navbar-brand">
         <!-- svelte-ignore -->
         <a class="navbar-item" href="{base}/">
-            <h1>HW&lt;&gt;9</h1>
+            <h1>HW<span id="azul">&lt;&gt;</span>9</h1>
         </a>
         <!-- svelte-ignore a11y-missing-attribute -->
         <a
