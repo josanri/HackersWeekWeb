@@ -43,11 +43,28 @@ table {
     flex-direction: column;
 }
 
+.title {
+    color: $light;
+}
+
 h1, h2 {
     font-family: "nevis";
 }
 
-/* Write your global styles here, in SCSS syntax. Variables and mixins from the src/variables.scss file are available here without importing */ /* Import only what you need from Bulma */
+#title
+{
+    font-size: 4rem;
+    @media screen and (max-width: 800px) {
+        font-size: 3rem;
+    }
+}
+
+#azul{
+    color: $primary;
+}
+
+
+/* Bulma */
 @import "bulma/sass/utilities/_all";
 
 @import "bulma/sass/base/_all";
@@ -70,11 +87,3 @@ h1, h2 {
 @import "bulma/sass/layout/hero";
 @import "bulma/sass/layout/section";
 @import "bulma/sass/layout/footer";
-
-.title {
-    color: $light;
-}
-
-#azul{
-    color: $primary;
-}
