@@ -1,3 +1,27 @@
+
+/* Bulma */
+@import "bulma/sass/utilities/_all";
+@import "bulma/sass/base/_all";
+
+@import "bulma/sass/elements/box";
+@import "bulma/sass/elements/button";
+@import "bulma/sass/elements/container";
+@import "bulma/sass/elements/title";
+
+@import "bulma/sass/components/navbar";
+
+@import "bulma/sass/grid/columns";
+
+@import "bulma/sass/helpers/color";
+@import "bulma/sass/helpers/flexbox";
+@import "bulma/sass/helpers/spacing";
+@import "bulma/sass/helpers/typography";
+@import "bulma/sass/helpers/visibility";
+
+@import "bulma/sass/layout/hero";
+@import "bulma/sass/layout/section";
+@import "bulma/sass/layout/footer";
+
 @font-face {
     font-family: "nevis";
     src: url("fonts/nevis.ttf") format("truetype");
@@ -45,14 +69,19 @@ table {
 
 .title {
     color: $light;
+    font-family: "nevis";
 }
 
-h1, h2 {
-    font-family: "nevis";
+.subtitle
+{
+    color: $light;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: bold;
 }
 
 #title
 {
+    font-family: "nevis";
     font-size: 4rem;
     @media screen and (max-width: 800px) {
         font-size: 3rem;
@@ -62,28 +91,3 @@ h1, h2 {
 #azul{
     color: $primary;
 }
-
-
-/* Bulma */
-@import "bulma/sass/utilities/_all";
-
-@import "bulma/sass/base/_all";
-
-@import "bulma/sass/elements/box";
-@import "bulma/sass/elements/button";
-@import "bulma/sass/elements/container";
-@import "bulma/sass/elements/title";
-
-@import "bulma/sass/components/navbar";
-
-@import "bulma/sass/grid/columns";
-
-@import "bulma/sass/helpers/color";
-@import "bulma/sass/helpers/flexbox";
-@import "bulma/sass/helpers/spacing";
-@import "bulma/sass/helpers/typography";
-@import "bulma/sass/helpers/visibility";
-
-@import "bulma/sass/layout/hero";
-@import "bulma/sass/layout/section";
-@import "bulma/sass/layout/footer";

@@ -1,14 +1,10 @@
-<script>
-    import conferences from "$lib/data/conferences.json";
-    import Tarjeta from "$lib/tarjeta.svelte";
-</script>
 <svelte:head>
     <title>¿Qué es la Hackers Week?</title>
 	<meta name="description" content="Información sobre las conferencias de la Hackers Week 9." />
 </svelte:head>
 
 
-<h3 class="title">¿Qué es la Hackers Week?</h3>
+<h1 class="title is-2">Acerca de la Hackers Week</h1>
 <p  class="box has-background-grey-dark has-text-light" >
     La Hackers Week es un evento <b>totalmente gratuito</b>, desarrollado por el Consejo de estudiantes de la ETSI Informática de la Universidad de Málaga. Durante todo el año, la organización del evento prepara las diferentes actividades a realizar para la próxima edición, además de estar presente en los cuatro días de duración de este.</p>
 <div class="box has-background-grey-dark has-text-light ">

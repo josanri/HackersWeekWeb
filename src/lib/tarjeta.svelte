@@ -14,7 +14,7 @@
 </script>
 
 <div class="box has-background-grey-dark">
-    <h3 class="title is-4 has-text-primary mb-1">
+    <h3 class="subtitle is-4 has-text-primary mb-1">
         {title}
     </h3>
 
