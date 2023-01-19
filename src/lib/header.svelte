@@ -16,10 +16,6 @@
             href: "events/hackersdays",
             name: "Hackers Days",
         },
-        {
-            href: "info/patrocinadores",
-            name: "Patrocinios",
-        },
         /*
         {
             href: "events/conferences",
