@@ -6,7 +6,7 @@
 <div class="has-text-centered m-6">
           <a href={url}>
             <figure class="image is-48x48">
-              <img src={img} alt={alt} width=300rem height=200rem>
+              <img src={img} alt={alt} height=240rem width=400rem>
             </figure>
           </a>
 </div>

@@ -10,5 +10,17 @@
         "url": "https://comunidadhackingetico.es/",
         "img" : "/hacking_etico_logo.png",
         "alt" : "Logo de la Comunidad Hacking Ético"
+    },
+    {
+        "title" : "CEEIBIS",
+        "url": "https://ceeibis.com/officialweb/",
+        "img" : "/ceeibis_logo.png",
+        "alt" : "Logo de CEEIBIS"
+    },
+    {
+        "title" : "Itera",
+        "url": "https://twitter.com/iterauma",
+        "img" : "/itera_logo.png",
+        "alt" : "Logo de Itera"
     }
 ]

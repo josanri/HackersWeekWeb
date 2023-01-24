@@ -4,7 +4,6 @@
     import colaboradores from "$lib/data/colaboradores.json";
     import Patrocinador from "$lib/patrocinador.svelte";
     import Organizador from "$lib/organizador.svelte";
-
 </script>
 
 <section class="hero is-fullheight-with-navbar is-black">
@@ -25,22 +24,16 @@
                     <Organizador organizador={p}/>
                 {/each}
             </div>
+            <h1 class="title is-2 mt-4" >Patrocinan</h1>
+            <div class="patrocinadores">
+                {#each patrocinadores as p}
+                    <Patrocinador patrocinador={p}/>
+                {/each}
+            </div>
             <h1 class="title is-2 mt-4 ">Colaboran</h1>
             <div class="patrocinadores">
                 {#each colaboradores as p}
                     <Organizador organizador={p}/>
-                {/each}
-            </div>
-        </div>
-    </div>
-</section>
-<section class="hero is-black">
-    <div class="hero-body pt-1">
-        <div class="container">
-            <h1 class="title is-2 " >Patrocinan</h1>
-            <div class="patrocinadores">
-                {#each patrocinadores as p}
-                    <Patrocinador patrocinador={p}/>
                 {/each}
             </div>
         </div>
