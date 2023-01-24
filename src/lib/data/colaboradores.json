@@ -1,0 +1,14 @@
+[
+    {
+        "title" : "ETSII",
+        "url": "https://www.uma.es/etsi-informatica/",
+        "img" : "escuela_logo.png",
+        "alt" : "Logo de la Escuela Técnica Superior de Ingeniería Informática"
+    },
+    {
+        "title" : "Comunidad Hacking Ético",
+        "url": "https://comunidadhackingetico.es/",
+        "img" : "/hacking_etico_logo.png",
+        "alt" : "Logo de la Comunidad Hacking Ético"
+    }
+]

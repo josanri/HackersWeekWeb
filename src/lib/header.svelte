@@ -10,8 +10,7 @@
         {
             href: "info/horario",
             name: "Horario",
-        }*/
-        ,
+        }*/,
         {
             href: "events/hackersdays",
             name: "Hackers Days",
@@ -46,7 +45,7 @@
     <div class="navbar-brand">
         <!-- svelte-ignore -->
         <a class="navbar-item" href="{base}/">
-            <span class ="title is-6">HW<span id="azul">&lt;&gt;</span>9</span>
+            <span class ="title is-6">HW<span class="has-text-primary">&lt;&gt;</span>9</span>
         </a>
         <!-- svelte-ignore a11y-missing-attribute -->
         <a

@@ -10,11 +10,5 @@
         "url" : "https://www.ebury.es/",
         "img" : "/ebury_logo.png",
         "alt" : "Logo de de Ebury"
-    },
-    {
-        "title" : "Comunidad Hacking Ético",
-        "url": "https://comunidadhackingetico.es/",
-        "img" : "/hacking_etico_logo.png",
-        "alt" : "Logo de la Comunidad Hacking Ético"
     }
 ]
