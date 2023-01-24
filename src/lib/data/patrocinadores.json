@@ -1,0 +1,20 @@
+[
+    {
+        "title" : "Atlas Versus Gamers",
+        "url": "https://www.vsgamers.es/",
+        "img" : "/versus_gamers.png",
+        "alt" : "Logo de Versus Gamers"
+    },
+    {
+        "title" : "Ebury",
+        "url" : "https://www.ebury.es/",
+        "img" : "/ebury_logo.png",
+        "alt" : "Logo de de Ebury"
+    },
+    {
+        "title" : "Comunidad Hacking Ético",
+        "url": "https://comunidadhackingetico.es/",
+        "img" : "/hacking_etico_logo.png",
+        "alt" : "Logo de la Comunidad Hacking Ético"
+    }
+]
