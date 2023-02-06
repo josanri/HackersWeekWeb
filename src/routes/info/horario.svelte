@@ -10,8 +10,8 @@
     <meta name="description" content="Información sobre los horarios de conferencias, talleres y videojuegos de la Hackers Week 9."/>
 </svelte:head>
 
-<h3 class="title">Horario</h3>
-<h4 class ="title is-3">Conferencias y talleres</h4>
+<h3 class="title is-1">Horario</h3>
+<h4 class ="title is-3">Conferencias</h4>
 <table  class = "table">
     <thead>
         <tr>
@@ -27,6 +27,22 @@
         {#each conferences as c}
         <Fila evento={c} />
         {/each}
+    </tbody>
+</table>
+<br>
+<h4 class ="title is-3">Talleres</h4>
+<table  class = "table">
+    <thead>
+        <tr>
+            <th class="has-text-light has-text-centered">
+                Fecha
+            </th>
+            <th class="has-text-light has-text-centered">
+                Título
+            </th>
+        </tr>
+    </thead>
+    <tbody>
         {#each workshops as t}
             <Fila evento={t} />
         {/each}
