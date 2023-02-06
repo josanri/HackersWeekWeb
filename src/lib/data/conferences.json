@@ -1,2 +1,16 @@
 [
+    {
+        "title" : "Ordenadores cuánticos y seguridad: ¿cómo nos afectan?",
+        "date" : "20/01/23 - 10:45",
+        "ubicacion" : "Salón de Actos de la ETSII",
+        "description" : "Seguramente todos hemos leído alguna noticia sobre avances en ordenadores cuánticos. En esta charla explicaremos cómo funcionan y por qué se dice que pueden suponer un peligro para la seguridad de internet. ¿Pero está todo perdido? Ni mucho menos. También hablaremos de toda la gente que está trabajando para, por un lado, aprovechar las ventajas de la computación cuántica, y por el otro aquellos que trabajan para que tengamos las defensas adecuadas.",
+        "ponente" : "Sandra Guasch Castelló"
+    },
+    {
+        "title" : "¡LLega la banca conversacional inclusiva!",
+        "date" : "21/01/23 - 10:45",
+        "ubicacion" : "Salón de Actos de la ETSII",
+        "description" : "La Banca Conversacional es un nuevo modelo de banca que surge de combinar estos tres elementos de la Inteligencia Artificial: Asistentes Virtuales, Biometría de Voz y Avatares Realistas que permitirán a cualquier tipo de clientes poder hablar con naturalidad y su forma de expresión para realizar cualquier operación financiera de forma cómoda y fácil.",
+        "ponente" : "Javier Porras Castaño"
+    }
 ]
