@@ -1,6 +1,6 @@
 <script>
     export let evento;
-    const { title, description, date, url, ubicacion } = evento;
+    const { title, description, date, url, ubicacion, ponente, tutor } = evento;
     const has_desc = description !== undefined;
     const description_words = has_desc && description.split(" ");
     const description_overflow_length = 48;
@@ -24,11 +24,22 @@
 
     {#if ubicacion !== undefined}
         <p class="has-text-light has-text-left">
-            <b>Ubicación</b>:
+            <b>Ubicación:</b>
             {ubicacion}
         </p>
     {/if}
-
+    {#if ponente !== undefined}
+        <p class="has-text-light has-text-left">
+            <b>Ponente:</b>
+            {ponente}
+        </p>
+    {/if}
+    {#if tutor !== undefined}
+        <p class="has-text-light has-text-left">
+            <b>Organizada por:</b>
+            {tutor}
+        </p>
+    {/if}
     {#if has_desc}
         <b class="has-text-light">Descripción</b>
         <p class="has-text-light is-info mb-3">
