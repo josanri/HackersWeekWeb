@@ -26,16 +26,16 @@
     },{
         "title" : "SECURE CODING 101",
         "date" : "22/02/23 - 10:45",
-        "ubicacion" : "3.0.2 de la ETSII",
+        "ubicacion" : "Salón de Actos de la ETSII",
         "description" : "En esta charla abordaremos algunos de los principios de secure coding que he ido aprendiendo a lo largo de mi experiencia como software engineer y que aplico en mi día a día.",
         "ponente" : "Marta Gómez Macías",
         "url" : "https://www.eventbrite.es/e/entradas-conferencia-secure-coding-101-518616996397"
-
+        
     },
     {
         "title" : "Ciberseguridad en entornos sociosanitarios, los nuevos retos de la tecnología Sanitaria",
         "date" : "22/02/23 - 10:45",
-        "ubicacion" : "Salón de Actos de la ETSII",
+        "ubicacion" : "3.0.2 de la ETSII",
         "description" : "Actualmente los sistemas de salud se encuentran en la diana de los ciberdelincuentes, esto está llevando a los equipos de ciberseguridad a analizar las problemáticas del sector y a plantear estrategias que permitan proteger uno de los pilares del estado de bienestar frente a las nuevas amenazas que ponen en peligro tanto sistemas de información como la propia vida de los pacientes. En esta ponencia se analizará cómo se está tratando actualmente este problema y qué soluciones a nivel tecnológico y de arquitecturas de seguridad se están adoptando en el sector.",
         "ponente":"Jesús Doña Fernández",
         "url" : "https://www.eventbrite.es/e/entradas-conferencia-ciberseguridad-en-entornos-sociosanitarios-los-nuevos-retos-531168929567"
