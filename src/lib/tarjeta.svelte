@@ -44,14 +44,14 @@
         <b class="has-text-light">Descripción</b>
         <p class="has-text-light is-info mb-3">
             {open_desc ? description : short_desc}
+            {#if description !== short_desc}
             <span
                 class=" is-text is-clickable is-small has-text-primary is-underlined is-clickable has-text-weight-bold is-flex is-justify-content-center pt-5"
                 on:click={() => (open_desc = !open_desc)}
             >
-            {#if description !== short_desc}
                 <button class ="column is-narrow is-centered button is-primary is-rounded is-small is-fullwidth">{open_desc ? "Ver menos" : "Ver más"}</button>
-            {/if}
             </span>
+            {/if}
         </p>
     {/if}
 
