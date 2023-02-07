@@ -13,5 +13,7 @@
         <p> Además de las actividades anteriormente mencionadas, se ponen a disposición espacios habilitados con videojuegos, juegos de mesa o juegos de rol y en los que también se realizan torneos y competiciones. </p>
 </div>
 <div class="is-flex is-justify-content-center">
-    <iframe title="Dossier Hackers Week" src="https://drive.google.com/file/d/1f6kN6qjgKxThCh9vRxwkZ8VLWDETjmHQ/preview" width="640rem" height="840rem" allow="autoplay"></iframe>
+    <a href="https://drive.google.com/file/d/1f6kN6qjgKxThCh9vRxwkZ8VLWDETjmHQ/preview" class="mt-3 button is-primary" target="_blank">
+        Dossier
+    </a>
 </div>
