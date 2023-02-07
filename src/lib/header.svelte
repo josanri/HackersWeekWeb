@@ -25,7 +25,7 @@
             name: "Talleres",
         },
         {
-            href: "events/videogames",
+            href: "events/activities",
             name: "Videojuegos",
         }*/
     ];
