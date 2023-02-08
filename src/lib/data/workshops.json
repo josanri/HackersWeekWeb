@@ -19,7 +19,7 @@
 {
     "title" : "Pentesting Android: Investigando con Frida",
     "ubicacion" : "3.1.11",
-    "tutor" : "Rodrigo López Villa",
+    "tutor" : "Roberto López Villa",
     "date" : "21/02/23 - 17:30",
     "description": "Frida es una potentísima herramienta de instrumentación de código para la mayoría de sistemas operativos actuales. En el taller, se usará Frida para analizar e inyectar código en aplicaciones Android en ejecución, y con ello descubrir su funcionamiento interno y secretos, y superar medidas de seguridad.",
     "url": "https://www.eventbrite.es/e/entradas-pentesting-android-investigando-con-frida-530520409827"
