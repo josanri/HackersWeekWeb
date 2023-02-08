@@ -1,3 +1,27 @@
 [
+{
+    "title": "Llevando el mundo real al virtual a través de la digitalización 3D",
+    "tutor" : "David Bueno Vallejo",
+    "ubicacion" : "3.1.11",
+    "date" : "20/02/23 - 17:30",
+    "description" : "En la actualidad se habla mucho de metaverso y de juegos hiperrealistas. En ellos se utilizan objetos y texturas que han sido capturados de la realidad. La fotogrametría permite digitalizar objetos mediante múltiples fotografías a través de la triangulación.\nEn este taller se dará una introducción práctica a las técnicas para digitalizar cualquier objeto del mundo real y generar ficheros estándares .obj que pueden utilizarse en cualquier herramienta cad, Unity, Unreal Engine, o metaverso como Spatial.io. Se explicará cómo exportarlo a repositorios de objetos 3D como sketchfab y también se indicará cómo crear un metahuman a partir de tu propia imagen. Entre los participantes se planteará un concurso donde se reconocerán los mejores trabajos.\nIMPORTANTE: Dado que el taller requiere potencia gráfica,los asistentes deberán llevar su propio portátil con la última versión de Unreal Engine 5 y Reality Capture.",
+    "url" : "https://www.eventbrite.es/e/entradas-taller-llevando-el-mundo-real-al-virtual-a-traves-de-la-digitalizacion-3d-530504963627"
+},
+{
+    "title" : "Introducción al ecosistema Web3",
+    "tutor": "Isaac Agudo y Rubén Ríos",
+    "ubicacion" : "3.1.10",
+    "date" : "20/02/23 - 17:30",
+    "description" : "Se presentarán los fundamentos de la web3, que incluyen el concepto de blockchain y de aplicación descentralizada. Se realizará un taller para usar las herramientas más comunes para interactuar con la web3 como son Metamask, Remix y Etherscan.",
+    "url": "https://www.eventbrite.es/e/entradas-taller-introduccion-al-ecosistema-web3-530510359767"
 
+},
+{
+    "title" : "Pentesting Android: Investigando con Frida",
+    "ubicacion" : "3.1.11",
+    "tutor" : "Rodrigo López Villa",
+    "date" : "21/02/23 - 17:30",
+    "description": "Frida es una potentísima herramienta de instrumentación de código para la mayoría de sistemas operativos actuales. En el taller, se usará Frida para analizar e inyectar código en aplicaciones Android en ejecución, y con ello descubrir su funcionamiento interno y secretos, y superar medidas de seguridad.",
+    "url": "https://www.eventbrite.es/e/entradas-pentesting-android-investigando-con-frida-530520409827"
+}
 ]

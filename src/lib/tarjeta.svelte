@@ -36,7 +36,7 @@
     {/if}
     {#if tutor !== undefined}
         <p class="has-text-light has-text-left">
-            <b>Organizada por:</b>
+            <b>Organizado por:</b>
             {tutor}
         </p>
     {/if}
