@@ -23,5 +23,29 @@
     "date" : "21/02/23 - 17:30",
     "description": "Frida es una potentísima herramienta de instrumentación de código para la mayoría de sistemas operativos actuales. En el taller, se usará Frida para analizar e inyectar código en aplicaciones Android en ejecución, y con ello descubrir su funcionamiento interno y secretos, y superar medidas de seguridad.",
     "url": "https://www.eventbrite.es/e/entradas-pentesting-android-investigando-con-frida-530520409827"
+},
+{
+    "title": "Diseño de arquitecturas de red para infraestructuras críticas y servicios esenciales.",
+    "tutor" : "Jesús Doña Fernández",
+    "date" : "22/02/23 - 17:30",
+    "ubicacion" : "3.0.2",
+    "description": "El diseño de arquitecturas que cumplan los requisitos de seguridad como los establecidos en el Esquema Nacional de Seguridad son prioridad para todas aquellas empresas que se catalogan como infraestructuras críticas y que además proveen servicios que son esenciales para la sociedad. En este taller se mostrará, de forma participativa con los asistentes, cuáles son los pasos a seguir para diseñar una arquitectura segura que pueda cubrir todos los aspectos necesarios para garantizar un servicio y dar cobertura a las normativas actuales centrándonos en el diseño de las redes de comunicación para el caso práctico de un centro Hospitalario.",
+    "url" : "https://www.eventbrite.es/e/entradas-taller-diseno-de-arquitecturas-de-red-para-infraestructuras-criticas-530506317677"
+},
+{
+    "title" : "Creando un servicio de FX trading desde 0 en Salesforce",
+    "ubicacion" : "3.1.11",
+    "date" : "22/02/23 - 17:30",
+    "tutor" : "Javier Vázquez Burgos",
+    "description" : "Explicaremos brevemente que es Salesforce para pasar directamente a crear una cuenta gratuita en su plataforma y un sandbox de pruebas para el taller guiado. Comentaremos entonces cuales son los requisitos que este servicio debe satisfacer para pasar a crear el backend usando Apex, incluyendo una integration API con servicio proveedor de FX rates, y el frontend usando LWC. Finamente, veremos como se comporta nuestra aplicación y pasaremos a una ronda final de preguntas y respuestas.",
+    "url" : "https://www.eventbrite.es/e/entradas-taller-creando-un-servicio-de-fx-trading-desde-0-en-salesforce-530514843177"
+},
+{
+    "title" : "Análisis y reversing de comunicaciones de una botnet.",
+    "ubicacion" : "3.1.11",
+    "date" : "23/02/23 - 17:30",
+    "tutor": "Rafel Ruiz Vallén",
+    "description" : "Se realizará un análisis de la descarga de un malware (cliente zombie) de una botnet y su tráfico con el servidor C2 (Command & Control).",
+    "url" : "https://www.eventbrite.es/e/entradas-taller-analisis-y-reversing-de-comunicaciones-de-una-botnet-530518183167"
 }
 ]
