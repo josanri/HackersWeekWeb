@@ -1,6 +1,6 @@
 <script>
     export let evento;
-    const {title, date} = evento;
+    const {title, date, url} = evento;
 </script>
 
 {#if evento !== undefined}
@@ -12,6 +12,6 @@
             {date}
         {/if}
     </td>
-    <td class="has-text-light has-text-centered p-3">{title}</td>
+    <td class="has-text-light has-text-centered p-3"><a href={url}> {title}</a></td>
 </tr>
 {/if}

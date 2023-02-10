@@ -1,6 +1,6 @@
 <script>
     import workshops from "$lib/data/workshops.json";
-    import videogames from "$lib/data/videogames.json";
+    import activities from "$lib/data/activities.json";
     import conferences from "$lib/data/conferences.json";
     import Fila from "$lib/fila.svelte";
 </script>
@@ -49,8 +49,8 @@
     </tbody>
 </table>
 <br>
-<h4 class ="title is-3">Videojuegos</h4>
-<table  class = "table is-striped is-hoverable">
+<h4 class ="title is-3">Actividades</h4>
+<table  class = "table">
     <thead>
         <tr>
             <th class="has-text-light has-text-centered">
@@ -62,8 +62,8 @@
         </tr>
     </thead>
     <tbody>
-        {#each videogames as v}
-        <Fila evento={v} />
+        {#each activities as act}
+        <Fila evento={act} />
         {/each}
     </tbody>
 </table>

@@ -1,5 +1,5 @@
 <script>
-    import videogames from "$lib/data/videogames.json";
+    import actividades from "$lib/data/activities.json";
     import Tarjeta from "$lib/tarjeta.svelte";
 </script>
 
@@ -9,6 +9,6 @@
 </svelte:head>
 
 <h3 class="title">Actividades</h3>
-{#each videogames as v}
-    <Tarjeta evento={v}/>
+{#each actividades as ac}
+    <Tarjeta evento={ac}/>
 {/each}

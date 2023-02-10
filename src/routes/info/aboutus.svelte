@@ -17,3 +17,7 @@
         Dossier
     </a>
 </div>
+<h2 class="title">Mapa</h2>
+<div class="is-flex is-justify-content-center">
+    <a href="https://youtu.be/UxNUhgNQrYQ"><img src="/mapa.png"  alt="Mapa de la Escuela Técnica Superior de Ingeniería Informática" height=340rem width=100%></a>
+</div>

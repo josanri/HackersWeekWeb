@@ -11,7 +11,7 @@
         "title" : "¡Llega la banca conversacional inclusiva!",
         "date" : "21/02/23 - 10:45",
         "ubicacion" : "Salón de Actos de la ETSII",
-        "description" : "La Banca Conversacional es un nuevo modelo de banca que surge de combinar estos tres elementos de la Inteligencia Artificial: Asistentes Virtuales, Biometría de Voz y Avatares Realistas que permitirán a cualquier tipo de clientes poder hablar con naturalidad y su forma de expresión para realizar cualquier operación financiera de forma cómoda y fácil.",
+        "description" : "La Banca Conversacional es un nuevo modelo de banca que surge de la sinergia de tres elementos de la Inteligencia Artificial: Asistentes Virtuales, Biometría de Voz y Avatares Realistas que permitirán a cualquier perfil de cliente realizar sus operaciones financieras hablando de forma natural con su propia forma de expresión en cualquier canal digital.",
         "ponente" : "Javier Porras Castaño",
         "url" : "https://www.eventbrite.es/e/entradas-conferencia-llega-la-banca-conversacional-inclusiva-528511631517"
     },
@@ -39,5 +39,14 @@
         "description" : "Actualmente los sistemas de salud se encuentran en la diana de los ciberdelincuentes, esto está llevando a los equipos de ciberseguridad a analizar las problemáticas del sector y a plantear estrategias que permitan proteger uno de los pilares del estado de bienestar frente a las nuevas amenazas que ponen en peligro tanto sistemas de información como la propia vida de los pacientes. En esta ponencia se analizará cómo se está tratando actualmente este problema y qué soluciones a nivel tecnológico y de arquitecturas de seguridad se están adoptando en el sector.",
         "ponente":"Jesús Doña Fernández",
         "url" : "https://www.eventbrite.es/e/entradas-conferencia-ciberseguridad-en-entornos-sociosanitarios-los-nuevos-retos-531168929567"
+    },
+    {
+        "title" : "Mesa Redonda: El garaje, la gran idea, la pasión lo puede todo y otros mitos de emprender",
+        "date" : "23/02/23 - 10:45",
+        "ubicacion" : "Salón de Actos de la ETSII",
+        "description" : "El gran evento de esta Hackers Week llega de la mano de 4 emprendedores malagueños que nos contarán los secretos de las startups para crecer hasta ser empresas exitosas a nivel mundial.\nEl perfil de Bernardo, Manu y Luis es de 3 emprendedores de éxito, los tres pasaron por nuestra Escuela. Tienen visiones diferentes de cómo hacer crecer su startup y están considerados como 3 grandes gurús de la Málaga Tech. Nos darán la historia de lo que hay ahora aquí y nos plantearán lo que viene. Miguel tiene un fondo de capital que invierte en proyectos Deep Tech. Su sede está en Madrid, pero ha abierto sus proyectos más recientes en Málaga y apostado por crear startups aquí. Nos dará la visión de qué hacer para escalar tu empresa desde una startup a una empresa de éxito global.\nLa mesa redonda será moderada por Nuria Triguero, redactora de Sur implicada en Málaga Tech.",
+        "ponente" : "Bernardo Quintero (VirusTotal), Manuel Heredia (Be Soccer), Luis Hernandez (Uptodown) y Miguel del Cañizo (Bullnet Capital).",
+        "moderador" : "Nuria Triguero (Sur)",
+        "url" : "https://www.eventbrite.es/e/entradas-el-garaje-la-gran-idea-la-pasion-lo-puede-todo-y-otros-mitos-de-emprender-518631128667"
     }
 ]

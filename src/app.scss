@@ -108,6 +108,13 @@ table {
     }
 }
 
-p{
+p {
     white-space: break-spaces;
+}
+
+a {
+    color: $primary;
+    &:hover{
+        color: aliceblue;
+    }
 }
