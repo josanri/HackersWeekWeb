@@ -18,15 +18,14 @@
         {
             href: "events/workshops",
             name: "Talleres",
-        }
-        /*
+        },
         {
-            href: "events/hackersdays",
-            name: "Hackers Days",
-        },,
-        {
+            name: "Actividades",
             href: "events/activities",
-            name: "Videojuegos",
+        },/*,
+        {
+            name: "Hackers Days",
+            href: "events/hackersdays",
         }*/
     ];
 
