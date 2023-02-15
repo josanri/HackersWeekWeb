@@ -6,6 +6,13 @@
     import Organizador from "$lib/components/organizador.svelte";
 </script>
 
+<svelte:head>
+    <title>Organización</title>
+	<meta name="description" content="Organizadores, colaboradores y patrocinadores de la Hackers Week 9." />
+</svelte:head>
+
+
+
 <section class="hero is-black">
     <div class="hero-body pb-1">
         <div class="container">
