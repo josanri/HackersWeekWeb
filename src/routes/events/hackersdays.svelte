@@ -1,6 +1,6 @@
 <script>
     import ponencia from "$lib/data/hackersdays.json";
-    import Tarjeta from "$lib/tarjeta.svelte";
+    import Tarjeta from "$lib/components/tarjeta.svelte";
 </script>
 
 <svelte:head>

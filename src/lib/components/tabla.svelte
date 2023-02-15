@@ -1,6 +1,6 @@
 <script>
     export let eventos;
-    import Fila from "$lib/fila.svelte";
+    import Fila from "$lib/components/fila.svelte";
 </script>
 
 <table  class = "table">
