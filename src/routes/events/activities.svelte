@@ -1,6 +1,6 @@
 <script>
     import actividades from "$lib/data/activities.json";
-    import Tarjeta from "$lib/tarjeta.svelte";
+    import Tarjeta from "$lib/components/tarjeta.svelte";
 </script>
 
 <svelte:head>

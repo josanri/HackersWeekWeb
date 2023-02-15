@@ -123,3 +123,26 @@ a {
         color: aliceblue;
     }
 }
+
+.navbar
+{
+    background-color: black;
+}
+
+.navbar-burger
+{
+    color: white;
+}
+
+.navbar-menu
+{
+    background-color: black;
+}
+
+a.navbar-item {
+    color: white;
+    background-color: black;
+    &:hover {
+        background-color: black;
+    }
+}

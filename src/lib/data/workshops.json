@@ -44,7 +44,7 @@
     "title" : "Análisis y reversing de comunicaciones de una botnet",
     "ubicacion" : "3.1.11",
     "date" : "23/02/23 - 17:30",
-    "tutor": "Rafel Ruiz Vallén",
+    "tutor": "Rafael Ruiz Villén",
     "description" : "Se realizará un análisis de la descarga de un malware (cliente zombie) de una botnet y su tráfico con el servidor C2 (Command & Control).",
     "url" : "https://www.eventbrite.es/e/entradas-taller-analisis-y-reversing-de-comunicaciones-de-una-botnet-530518183167"
 }

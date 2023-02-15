@@ -1,6 +1,6 @@
 <script>
     import conferences from "$lib/data/conferences.json";
-    import Tarjeta from "$lib/tarjeta.svelte";
+    import Tarjeta from "$lib/components/tarjeta.svelte";
 </script>
 
 <svelte:head>

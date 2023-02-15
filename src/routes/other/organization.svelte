@@ -1,20 +1,18 @@
 <script>
-    import patrocinadores from "$lib/data/patrocinadores.json";
-    import organizadores from "$lib/data/organizadores.json";
-    import colaboradores from "$lib/data/colaboradores.json";
-    import Patrocinador from "$lib/patrocinador.svelte";
-    import Organizador from "$lib/organizador.svelte";
+    import patrocinadores from "$lib//data/patrocinadores.json";
+    import organizadores from "$lib//data/organizadores.json";
+    import colaboradores from "$lib//data/colaboradores.json";
+    import Patrocinador from "$lib/components/patrocinador.svelte";
+    import Organizador from "$lib/components/organizador.svelte";
 </script>
 
-<section class="hero is-fullheight-with-navbar is-black">
-    <div class="hero-body">
-        <div class="container">
-            <h1 class="title is-1" id = "title">HACKERS <b class="has-text-primary">&lt;&gt;</b> WEEK 9</h1>
-            <h2 class="title is-2">del 20 al 23 de febrero de 2023</h2>
-            <br>
-        </div>
-    </div>
-</section>
+<svelte:head>
+    <title>Organización</title>
+	<meta name="description" content="Organizadores, colaboradores y patrocinadores de la Hackers Week 9." />
+</svelte:head>
+
+
+
 <section class="hero is-black">
     <div class="hero-body pb-1">
         <div class="container">

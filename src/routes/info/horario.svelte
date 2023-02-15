@@ -2,7 +2,7 @@
     import workshops from "$lib/data/workshops.json";
     import activities from "$lib/data/activities.json";
     import conferences from "$lib/data/conferences.json";
-    import Tabla from "$lib/tabla.svelte";
+    import Tabla from "$lib/components/tabla.svelte";
 </script>
 
 <svelte:head>

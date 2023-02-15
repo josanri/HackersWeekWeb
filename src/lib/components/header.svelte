@@ -22,6 +22,10 @@
         {
             name: "Actividades",
             href: "events/activities",
+        },
+        {
+            name: "Organización",
+            href: "other/organization",
         },/*,
         {
             name: "Hackers Days",
@@ -40,7 +44,7 @@
     page.subscribe(() => (isActive = false));
 </script>
 
-<nav class="navbar is-black" aria-label="main navigation">
+<nav class="navbar" aria-label="main navigation">
     <div class="navbar-brand">
         <!-- svelte-ignore -->
         <a class="navbar-item" href="{base}/">
