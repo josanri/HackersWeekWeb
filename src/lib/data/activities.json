@@ -22,5 +22,11 @@
     "date" :"19-02-22 - 16:00",
     "description" : "Para finalizar el domingo,  tendremos torneo de Valorant, monta un equipo de 5 jugadores.",
     "url": "https://forms.gle/iVqfAPh18EmYY3vL7"
+},
+{
+    "title" : "Capture The Flag - CTF",
+    "date" :"23-02-22 - 24-02-22",
+    "description": "¿Interesado en iniciarte en la ciberseguridad? ¿Tienes experiencia en resolver CTFs? En cualquier caso, estás de suerte, la asociación de Hacking Ético ha preparado un CTF para esta Hackers Week con premios resuelviendo retos de criptografía, forensia, web o esteganografía a lo largo de la semana.",
+    "url" : "https://hackersweek.comunidadhackingetico.es/"
 }
 ]
