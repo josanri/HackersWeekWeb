@@ -2,15 +2,8 @@
     export let evento;
     const { title, description, date, url, ubicacion, ponente, tutor, moderador } = evento;
     const has_desc = description !== undefined;
-    const description_words = has_desc && description.split(" ");
-    const description_overflow_length = 48;
-    const description_overflows =
-        has_desc && description_words.length > description_overflow_length;
-    const short_desc =
-        has_desc &&
-        description_words.slice(0, description_overflow_length).join(" ") +
-            (description_overflows ? "..." : "");
-    let open_desc = false;
+    const has_short_desc = has_desc && description.length == 1;
+    let open_desc = false || has_short_desc;
 </script>
 
 <div class="box has-background-grey-dark">
@@ -24,19 +17,19 @@
 
     {#if ubicacion !== undefined}
         <p class="has-text-light has-text-left">
-            <b>Ubicación:</b>
+            <strong>Ubicación:</strong>
             {ubicacion}
         </p>
     {/if}
     {#if ponente !== undefined}
         <p class="has-text-light has-text-left">
-            <b>Ponente:</b>
+            <strong>Ponente:</strong>
             {ponente}
         </p>
     {/if}
     {#if tutor !== undefined}
         <p class="has-text-light has-text-left">
-            <b>Organizado por:</b>
+            <strong>Organizado por:</strong>
             {tutor}
         </p>
     {/if}
@@ -47,18 +40,24 @@
         </p>
     {/if}
     {#if has_desc}
-        <b class="has-text-light">Descripción</b>
-        <p class="has-text-light is-info mb-3">
-            {open_desc ? description : short_desc}
-            {#if description !== short_desc}
-            <span
-                class=" is-text is-clickable is-small has-text-primary is-underlined is-clickable has-text-weight-bold is-flex is-justify-content-center pt-5"
-                on:click={() => (open_desc = !open_desc)}
-            >
-                <button class ="column is-narrow is-centered button is-primary is-rounded is-small is-fullwidth">{open_desc ? "Ver menos" : "Ver más"}</button>
-            </span>
+        <strong class="has-text-light">Descripción</strong>
+        <div class="has-text-light is-info mb-3">
+            {#if open_desc}
+                {#each description as paragraph}
+                    <p>{paragraph} </p>
+                {/each}
+            {:else}
+                <p>{description[0]} </p>
             {/if}
-        </p>
+            {#if !has_short_desc}
+                <span
+                    class=" is-text is-clickable is-small has-text-primary is-underlined is-clickable has-text-weight-bold is-flex is-justify-content-center pt-2"
+                    on:click={() => (open_desc = !open_desc)}
+                >
+                    <button class ="column is-narrow is-centered button is-primary is-rounded is-small is-fullwidth">{open_desc ? "Ver menos" : "Ver más"}</button>
+                </span>
+            {/if}
+        </div>
     {/if}
 
     {#if url !== undefined}

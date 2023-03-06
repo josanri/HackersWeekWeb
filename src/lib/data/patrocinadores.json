@@ -1,20 +1,2 @@
 [
-    {
-        "title" : "Atlas Versus Gamers",
-        "url": "https://www.vsgamers.es/",
-        "img" : "/versus_gamers.png",
-        "alt" : "Logo de Versus Gamers"
-    },
-    {
-        "title" : "Ebury",
-        "url" : "https://www.ebury.es/",
-        "img" : "/ebury_logo.png",
-        "alt" : "Logo de de Ebury"
-    },
-    {
-        "title" : "La Peña Overflow",
-        "url" : "https://mobile.twitter.com/laoverflow",
-        "img" : "/overflow_logo.png",
-        "alt" : "Logo de la Peña Overflow"
-    }
 ]

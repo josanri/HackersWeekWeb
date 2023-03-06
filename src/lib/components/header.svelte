@@ -6,7 +6,7 @@
         {
             href: "info/aboutus",
             name: "¿Qué es la Hackers Week?",
-        },
+        },/* ,
         {
             href: "info/horario",
             name: "Horario",
@@ -26,11 +26,11 @@
         {
             name: "Organización",
             href: "other/organization",
-        },/*,
+        },*/
         {
             name: "Hackers Days",
             href: "events/hackersdays",
-        }*/
+        }
     ];
 
     let isActive = false;
@@ -48,7 +48,7 @@
     <div class="navbar-brand">
         <!-- svelte-ignore -->
         <a class="navbar-item" href="{base}/">
-            <span class ="title is-6">HW<span class="has-text-primary">&lt;&gt;</span>9</span>
+            <span class ="title is-6">H<span class="has-text-primary">&lt;&gt;</span>W</span>
         </a>
         <!-- svelte-ignore a11y-missing-attribute -->
         <a
