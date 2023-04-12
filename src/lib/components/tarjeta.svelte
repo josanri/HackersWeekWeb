@@ -12,7 +12,7 @@
     </h3>
 
     {#if date !== undefined}
-        <p class="has-text-light"><b>Fecha</b>: <b>{date}</b></p>
+        <p class="has-text-light"><strong>Fecha</strong>: <b>{date}</b></p>
     {/if}
 
     {#if ubicacion !== undefined}
@@ -35,12 +35,12 @@
     {/if}
     {#if moderador !== undefined}
         <p class="has-text-light has-text-left">
-            <b>Moderado por:</b>
+            <strong>Moderado por:</strong>
             {moderador}
         </p>
     {/if}
     {#if has_desc}
-        <strong class="has-text-light">Descripción</strong>
+        <strong>Descripción</strong>
         <div class="has-text-light is-info mb-3">
             {#if open_desc}
                 {#each description as paragraph}
