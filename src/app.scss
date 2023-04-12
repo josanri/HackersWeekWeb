@@ -43,6 +43,10 @@ body {
     flex-direction: column;
 }
 
+strong {
+    color: $light;
+}
+
 table {
     width: 100%;
     th {
