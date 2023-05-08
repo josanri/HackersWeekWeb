@@ -12,7 +12,7 @@
 <p  class="box has-background-grey-dark has-text-light" >
     Los Hackers Days son eventos mensuales realizados por el Consejo de Estudiantes de Informática con la colaboración de la Escuela Técnica Superior de Ingeniería Informática donde se reserva espacio y tiempo a ponentes y organizadores de taller para distintas actividades con una duración máxima de 1h y 45 minutos.
 </p>
-<h2 class="title is-3 has-text-centered">Talleres</h2>
+<h2 class="title is-3 has-text-centered">Talleres pasados</h2>
     {#each ponencia as pon}
     <Tarjeta evento={pon}/>
     {/each}

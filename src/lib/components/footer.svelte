@@ -8,7 +8,7 @@
                     Correo: <a href="mailto:consejoinfuma@gmail.com"
                         >consejoinfuma@gmail.com</a>
                 </li>
-                <li>Despacho: Complejo Tecnológico - 3.2.B.1</li>
+                <li>Despacho: Blvr. Louis Pasteur, 35 - 3.2.B.1</li>
             </ul>
         </div>
         <div class="column">

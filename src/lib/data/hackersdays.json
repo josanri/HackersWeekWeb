@@ -3,23 +3,20 @@
     "date": "10:45 - 12:30, 20 de abril",
     "ubicacion": "Laboratorio 3.1.12 ETSII, UMA",
     "description": ["¿Qué ocurre tras un ciberataque? ¿Qué herramientas se pueden usar como forense? Experiméntalo con casos prácticos durante este taller se realizará una actividad práctica que deberán realizar los participantes, la cual constará de hasta 18 ejercicios que se dividirán principalmente en 4 herramientas (Volatility/Autopsy/Access Data FTK Imager/Active@ Disk Editor).",
-                    "El contenido de los ejercicios irá dividido en tres dificultades (básica, intermedia y avanzada) las cuales se aplicarán a las herramientas anteriormente mencionadas."],
-    "url": "https://www.eventbrite.es/e/entradas-taller-analisis-forense-para-dummies-accenture-608821239717"
+                    "El contenido de los ejercicios irá dividido en tres dificultades (básica, intermedia y avanzada) las cuales se aplicarán a las herramientas anteriormente mencionadas."]
 },
 {
     "title": "Aplicaciones modernas con estándares abiertos en Azure - NTT",
     "date": "10:45 - 12:30, 20 de abril",
     "ubicacion": "Laboratorio 3.1.7 ETSII, UMA",
-    "description": ["Usaremos Dapr y KEDA para ejecutar nuestros microservicios y aplicaciones en contenedores en una verdadera plataforma sin servidor. Realizaremos tareas del ciclo de vida de la aplicación, como actualizaciones de aplicaciones, cambio de tráfico y control de versiones con configuraciones simples."],
-    "url" : "https://www.eventbrite.es/e/entradas-taller-aplicaciones-modernas-con-estandares-abiertos-en-azure-ntt-608830517467"
+    "description": ["Usaremos Dapr y KEDA para ejecutar nuestros microservicios y aplicaciones en contenedores en una verdadera plataforma sin servidor. Realizaremos tareas del ciclo de vida de la aplicación, como actualizaciones de aplicaciones, cambio de tráfico y control de versiones con configuraciones simples."]
 },
 {
     "title": "Introducción al hacking en el Ecosistema IoT - Capgemini",
     "date": "10:45 - 12:30, 20 de abril",
     "ubicacion": "Laboratorio 3.1.2 ETSII, UMA",
     "description":["En este taller hablaremos sobre el Ecosistema IoT: dispositivo, Cloud y App Móvil , y se realizarán algunas actividades sobre extracción y análisis de firmware de un dispositivo IoT, comprobación de la seguridad de las comunicaciones con el Cloud e introducción al análisis de seguridad de la aplicación móvil.",
-                    "El estudiante adquirirá conocimientos en ingeniería inversa sobre firmwares y dispositivos, seguridad en comunicaciones y descompiladores de aplicaciones así como los conceptos básicos que se esperan encontrar en el Ecosistema IoT desde el punto de vista de la Ciberseguridad."],
-    "url": "https://www.eventbrite.es/e/entradas-taller-introduccion-al-hacking-en-el-ecosistema-iot-capgemini-608822854547"
+                    "El estudiante adquirirá conocimientos en ingeniería inversa sobre firmwares y dispositivos, seguridad en comunicaciones y descompiladores de aplicaciones así como los conceptos básicos que se esperan encontrar en el Ecosistema IoT desde el punto de vista de la Ciberseguridad."]
 },
 {
     "title" : "Devops 101: Despliega tu primera aplicación - EPAM",
@@ -28,7 +25,6 @@
     "description": [
         "En este workshop se realizara una presentación sobre Azure Devops y sus distintos componentes individuales, desplegando nuestra primera aplicación.",
         "Se empezará con una presentación sobre el servicio de Azure Devops y tras esto, pasaremos a realizar unas prácticas de taller donde configuraremos nuestra primera organización de Azure Devops, un primer pipeline “Hola Mundo”, configuración de servicios, finalizando con un pipeline de despliegue con parte CI: Crearemos una imagen de Docker de nuestra app y la subiremos a Azure container registry; y parte CD: Desplegaremos nuestra app en Azure container service"
-    ],
-    "url" : "https://www.eventbrite.es/e/entradas-taller-devops-101-despliega-tu-primera-aplicacion-epam-608830066117"
+    ]
 }
 ]
