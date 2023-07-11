@@ -40,7 +40,6 @@
         </p>
     {/if}
     {#if has_desc}
-        <strong>Descripción</strong>
         <div class="has-text-light is-info mb-3">
             {#if open_desc}
                 {#each description as paragraph}

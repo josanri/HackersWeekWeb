@@ -28,6 +28,9 @@
             href: "other/organization",
         },*/
         {
+            name: "Ediciones Anteriores",
+            href: "events/previous",
+        },{
             name: "Hackers Days",
             href: "events/hackersdays",
         }
