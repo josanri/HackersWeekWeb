@@ -1,7 +1,7 @@
 <script>
-    import patrocinadores from "$lib//data/patrocinadores.json";
-    import organizadores from "$lib//data/organizadores.json";
-    import colaboradores from "$lib//data/colaboradores.json";
+    import patrocinadores from "$lib//data/info/patrocinadores.json";
+    import organizadores from "$lib/data/info/organizadores.json";
+    import colaboradores from "$lib/data/info/colaboradores.json";
     import Patrocinador from "$lib/components/patrocinador.svelte";
     import Organizador from "$lib/components/organizador.svelte";
 </script>
