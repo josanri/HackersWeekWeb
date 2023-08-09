@@ -1,0 +1,171 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-99861b48.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-931a37f3.js",
+      "_paths-396f020f.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/index.svelte",
+      "src/routes/events/__layout.svelte",
+      "src/routes/events/conferences.svelte",
+      "src/routes/events/hackersdays.svelte",
+      "src/routes/events/activities.svelte",
+      "src/routes/events/workshops.svelte",
+      "src/routes/other/organization.svelte",
+      "src/routes/info/__layout.svelte",
+      "src/routes/info/aboutus.svelte",
+      "src/routes/info/horario.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-e2da7bc8.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-931a37f3.js",
+      "_paths-396f020f.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-f3059bc6.css"
+    ],
+    "assets": [
+      "assets/nevis-9945f86f.woff2"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-d989038a.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-931a37f3.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-a39c389a.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-931a37f3.js"
+    ]
+  },
+  "src/routes/events/__layout.svelte": {
+    "file": "pages/events/__layout.svelte-e8a0d3b6.js",
+    "src": "src/routes/events/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-931a37f3.js"
+    ]
+  },
+  "src/routes/events/conferences.svelte": {
+    "file": "pages/events/conferences.svelte-e7454250.js",
+    "src": "src/routes/events/conferences.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-931a37f3.js",
+      "_conferences-6a7bfa4f.js",
+      "_tarjeta-1f1d99e4.js"
+    ]
+  },
+  "src/routes/events/hackersdays.svelte": {
+    "file": "pages/events/hackersdays.svelte-696e36d4.js",
+    "src": "src/routes/events/hackersdays.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-931a37f3.js",
+      "_tarjeta-1f1d99e4.js"
+    ]
+  },
+  "src/routes/events/activities.svelte": {
+    "file": "pages/events/activities.svelte-780973a4.js",
+    "src": "src/routes/events/activities.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-931a37f3.js",
+      "_activities-b56c38b5.js",
+      "_tarjeta-1f1d99e4.js"
+    ]
+  },
+  "src/routes/events/workshops.svelte": {
+    "file": "pages/events/workshops.svelte-cac84b5c.js",
+    "src": "src/routes/events/workshops.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-931a37f3.js",
+      "_workshops-71199bfb.js",
+      "_tarjeta-1f1d99e4.js"
+    ]
+  },
+  "src/routes/other/organization.svelte": {
+    "file": "pages/other/organization.svelte-4c1cd442.js",
+    "src": "src/routes/other/organization.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-931a37f3.js"
+    ]
+  },
+  "src/routes/info/__layout.svelte": {
+    "file": "pages/info/__layout.svelte-4db9c0a8.js",
+    "src": "src/routes/info/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-931a37f3.js"
+    ]
+  },
+  "src/routes/info/aboutus.svelte": {
+    "file": "pages/info/aboutus.svelte-dd83429d.js",
+    "src": "src/routes/info/aboutus.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-931a37f3.js"
+    ]
+  },
+  "src/routes/info/horario.svelte": {
+    "file": "pages/info/horario.svelte-115bb7cd.js",
+    "src": "src/routes/info/horario.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-931a37f3.js",
+      "_workshops-71199bfb.js",
+      "_activities-b56c38b5.js",
+      "_conferences-6a7bfa4f.js"
+    ]
+  },
+  "_index-931a37f3.js": {
+    "file": "chunks/index-931a37f3.js"
+  },
+  "_paths-396f020f.js": {
+    "file": "chunks/paths-396f020f.js"
+  },
+  "_conferences-6a7bfa4f.js": {
+    "file": "chunks/conferences-6a7bfa4f.js"
+  },
+  "_tarjeta-1f1d99e4.js": {
+    "file": "chunks/tarjeta-1f1d99e4.js",
+    "imports": [
+      "_index-931a37f3.js"
+    ]
+  },
+  "_activities-b56c38b5.js": {
+    "file": "chunks/activities-b56c38b5.js"
+  },
+  "_workshops-71199bfb.js": {
+    "file": "chunks/workshops-71199bfb.js"
+  }
+}
