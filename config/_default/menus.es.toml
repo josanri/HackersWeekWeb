@@ -1,0 +1,130 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+[[main]]
+  name = "Información"
+  pageRef = "about"
+  weight = 1
+
+[[main]]
+  name = "Anuncios"
+  pageRef = "announcements"
+  weight = 5
+
+# [[main]]
+#  name = "Eventos"
+#  pageRef = "events"
+#  weight = 10
+
+#[[main]]
+#  name = "Ponencias"
+#  pageRef = "events/2023-24/hackers-week/presentation"
+#  parent  = "Eventos"
+#  weight = 11
+
+#[[main]]
+#  name = "Talleres"
+#  pageRef = "events/2023-24/hackers-week/workshop"
+#  parent  = "Eventos"
+#  weight = 12
+
+
+#[[main]]
+#  name = "Torneos"
+#  pageRef = "events/2023-24/hackers-week/activities/tournament"
+#  parent  = "Eventos"
+#  weight = 21
+
+#[[main]]
+#  name = "Rol"
+#  pageRef = "events/2023-24/hackers-week/activities/rol"
+#  parent  = "Eventos"
+#  weight = 22
+
+[[main]]
+  name = "Ediciones pasadas"
+  pageRef = "events"
+  weight = 30
+
+[[main]]
+  name = "2022-23"
+  pageRef = "events/2022-23"
+  parent = "Ediciones pasadas"
+  weight = 31
+
+  [[main]]
+  name = "2021-22"
+  pageRef = "events/2021-22/hackers-week/"
+  parent = "Ediciones pasadas"
+  weight = 32
+
+#[[main]]
+#  name = "Horario"
+#  pageRef = "schedule"
+#  weight = 40
+
+#[[subnavigation]]
+#  name = "Información"
+#  pageRef = "tags/info"
+#  weight = 100
+
+#[[subnavigation]]
+#  name = "Ciberserguridad"
+#  pageRef = "tags/cybersecurity"
+#  weight = 101
+
+#[[subnavigation]]
+#  name = "Cuántica"
+#  pageRef = "tags/quantic"
+#  weight = 102
+
+#[[subnavigation]]
+#  name = "Salud"
+#  pageRef = "tags/health"
+#  weight = 103
+
+#[[subnavigation]]
+#  name = "DevOps"
+#  pageRef = "tags/devops"
+#  weight = 104
+
+#[[subnavigation]]
+#  name = "My Awesome Category"
+#  pre = "github"
+#  pageRef = "categories/awesome"
+#  weight = 20
+
+#[[main]]
+#  name = "Categories"
+#  pageRef = "categories"
+#  weight = 20
+
+#[[main]]
+#  name = "Tags"
+#  pageRef = "tags"
+#  weight = 30
+
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+
+ [[footer]]
+   name = "Etiquetas"
+   pageRef = "tags"
+   weight = 10
+
+# [[footer]]
+#   name = "Categories"
+#   pageRef = "categories"
+#   weight = 20
