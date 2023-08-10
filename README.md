@@ -23,7 +23,7 @@ La estructura del contenido viene dada por:
 ### Thumbnails
 Añadir un archivo featured.(png/webp) en la misma carpeta que la entrada.
 ### SEO
-El SEO está desactivado para desarrollo por lo que Lighthouse puede notificarlo en desarrollo, pero no debería en producción.
+El SEO puede ser desactivado para desarrollo por lo que Lighthouse puede notificarlo en desarrollo, pero no debería en producción.
 
 ### Configuración
 Viene indicada en config/_default, ver más detalles en la documentación oficial.
