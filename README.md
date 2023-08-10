@@ -1,54 +1,42 @@
-# Hackers Week Web
-
-[![Build and Deploy to Pages](https://github.com/ConsejoInfUMA/HackersWeekWeb/actions/workflows/main.yml/badge.svg)](https://github.com/ConsejoInfUMA/HackersWeekWeb/actions/workflows/main.yml)
-
-<a href="https://bulma.io">
-  <img
-    src="https://bulma.io/images/made-with-bulma.png"
-    alt="Made with Bulma"
-    width="128"
-    height="24">
-</a>
-
+# Hackers Week
+## Dependencias
+La página de la Hackers Week está basada en **Hugo** con el tema de **Blowfish**.
 ## Desarrollo
-
-Una vez clonado el repositorio instala las dependencias con `npm i` e inicia el development server:
-
-```bash
-npm run dev
+### Iniciar en desarrollo
 ```
-
-La web está hecha con [SvelteKit](https://kit.svelte.dev/), en caso de dudas mira la [documentación oficial](https://kit.svelte.dev/docs/introduction) o haz el [tutorial de Svelte](https://svelte.dev/tutorial/basics).
-
-## Compilación
-
-Compila el proyecto y visualiza una versión de producción:
-
-```bash
-npm run build
-npm run preview
+hugo server [-D]
 ```
+Podemos añadir la ```-D``` para que se muestren los artículos en borrador también.
+### Contenido
+```
+hugo new carpeta/subcarpeta/archivo.md
+```
+Si quieres usar las plantillas, puedes crear basadas en tipos, por ejemplo
+```
+hugo new --kind ponencia carpeta/subcarpeta/archivo.md
+```
+Se basará en el arquetipo de ponencia para que sirva de plantilla, que es algo más elegante que copiar y pegar...
+### Cómo añadir nuevo contenido
+La estructura del contenido viene dada por:
+- index.md como artículos
+- _index.md como aglomeradores de artículos.
+### Thumbnails
+Añadir un archivo featured.(png/webp) en la misma carpeta que la entrada.
+### SEO
+El SEO está desactivado para desarrollo por lo que Lighthouse puede notificarlo en desarrollo, pero no debería en producción.
 
-## Actualización
-
-El favicon se encuentra en `static/favicon.png` y es una imagen png 128x128.
-
-### Datos
-
-Los datos de las actividades se guardan en el directorio `src/lib/data/`. Los datos se encuentran en varios archivos llamados `src/lib/data/conferences.json`, `src/lib/data/workshops.json` y `src/lib/data/videogames.json`. Los datos se guardan dentro de un array compuesto por objetos de tipo evento. El archivo `src/lib/data/rol.json` puede añadirse en caso de que se planifiquen partidas.
-
-Cada evento consiste en un objeto JSON con los campos:
-- `"title"`: Nombre del evento.
-- `"description"`: Descripción del evento como array de strings.
-- `"url"`: Enlace al evento.
-- `"date"`: Fecha y hora del evento.
-- `"ubicacion"`: Ubicación del evento.
-- `"ponente, tutor, moderador"`: Añaden información sobre actividades organizadas.
-
-El componente `src/lib/components/tarjeta` controla la forma en la que se presenta la información.
-
-### Estilo
-
-El estilo de la página se puede cambiar editando `src/app.scss` (estilo global, fuentes, etc) y `src/variables.scss` (colores, tamaños, etc.). La web usa [Bulma](https://bulma.io/) como framework css. Para ver la lista completa de variables que puedes editar visita la [documentación sobre personalización](https://bulma.io/documentation/customize/variables/) de Bulma.
-
-Actualmente la web usa los colores corporativos de la Hackers Week y algunos colores de la paleta [Catppuccin](https://github.com/catppuccin/catppuccin). En el futuro se podrían tomar más colores de esta paleta, escoger otra o prescindir de ella.
+### Configuración
+Viene indicada en config/_default, ver más detalles en la documentación oficial.
+### Tools
+- Herramienta para la generación de colores para Tailwind [Fugu](https://github.com/nunocoracao/fugu)
+### Colores
+Existen tres colores personalizables que conforman la paleta de colores: **neutral**, **primary** y **secondary**; los colores originales se encuentran en la variable "*-500", si el número crece, se hace más oscuro y disminuirlo lo hace más claro.
+## Despliegue
+### Actions
+En la carpeta `.github/workflows` se puede encontrar el `.yml` para el despliegue de la página en Github Pages
+### Build
+Para construir el sitio web de Hugo deberás ejecutar el siguiente comando:
+```
+hugo --minify
+```
+, el resultado, los archivos de la página web, se depositarán en la carpeta public, aunque el resultado no funciona si no está siendo ejecutado desde un servidor.
