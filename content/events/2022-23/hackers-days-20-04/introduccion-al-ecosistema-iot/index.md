@@ -3,7 +3,7 @@ title: "Introducción al hacking en el Ecosistema IoT - Capgemini"
 date: 2023-07-31T23:59:10+02:00
 draft: false
 description: "Taller sobre aplicaciones IoT, prestando atención a la seguridad de los dispositivos y sus comunicaciones"
-tags: ["workshop", "cybsercurity","iot"]
+tags: ["workshop", "cybersecurity","iot"]
 categories: ["Hackers Day 20-04-23"]
 ---
 
