@@ -3,7 +3,7 @@ title: "¡Llega la banca conversacional inclusiva!"
 date: 2023-08-01T17:54:02+02:00
 draft: false
 description: "Ponencia sobre la combinación de las nuevas tecnologías para la mejora en accesibilidad de las aplicaciones bancarias"
-tags: ["presentation", "banking", "accesibility", "ai"]
+tags: ["presentation", "banking", "accesibility", "artificial inteligence"]
 categories: ["Hackers Week 9"]
 ---
 
