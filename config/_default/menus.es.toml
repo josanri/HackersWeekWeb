@@ -63,7 +63,7 @@
 
   [[main]]
   name = "2021-22"
-  pageRef = "events/2021-22/hackers-week/"
+  pageRef = "events/2021-22/hackers-week-8/"
   parent = "Ediciones pasadas"
   weight = 32
 
