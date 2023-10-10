@@ -21,9 +21,9 @@
   weight = 5
 
 # [[main]]
-#  name = "Eventos"
-#  pageRef = "events"
-#  weight = 10
+ # name = "Eventos"
+ # pageRef = "events/2023-24/hackers-days-16-10"
+  # weight = 10
 
 #[[main]]
 #  name = "Ponencias"
@@ -51,20 +51,26 @@
 #  weight = 22
 
 [[main]]
-  name = "Ediciones pasadas"
+  name = "Histórico"
   pageRef = "events"
+  weight = 30
+
+[[main]]
+  name = "2023-24"
+  pageRef = "events/2023-24"
+  parent = "Histórico"
   weight = 30
 
 [[main]]
   name = "2022-23"
   pageRef = "events/2022-23"
-  parent = "Ediciones pasadas"
+  parent = "Histórico"
   weight = 31
 
-  [[main]]
+[[main]]
   name = "2021-22"
   pageRef = "events/2021-22/hackers-week-8/"
-  parent = "Ediciones pasadas"
+  parent = "Histórico"
   weight = 32
 
 #[[main]]
