@@ -11,3 +11,7 @@ Queremos hablaros de tú a tú de nuestra experiencia desde estar estudiando en 
 **Ponentes:** Antonio Ramón Alfaro, Cibersecurity Officer y Ana Pérez, Aviation Expert Director
 
 **Fecha:** 16 de octubre de 2023
+
+{{< button href="https://www.eventbrite.es/e/entradas-ponencia-como-no-deje-de-ser-ingenier-730258281177" target="_self" >}}
+Entradas
+{{< /button >}}

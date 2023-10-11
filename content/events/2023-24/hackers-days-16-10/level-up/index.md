@@ -11,3 +11,7 @@ Sabes cómo aumente la capacidad de los equipos de desarrollo para impulsar la i
 **Ponente:** Manuel Sánchez
 
 **Fecha:** 16 de octubre de 2023
+
+{{< button href="https://www.eventbrite.es/e/entradas-ponencia-level-up-you-developer-velocity-with-azure-codespace-copilot-730256235057" target="_self" >}}
+Entradas
+{{< /button >}}
