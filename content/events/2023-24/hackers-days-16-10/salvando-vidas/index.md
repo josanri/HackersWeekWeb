@@ -12,3 +12,7 @@ categories: ["Hackers Day 16-20-23"]
 **Ponentes:** Pedro M. Torres Vertedor, CTO Meditecs.
 
 **Fecha:** 16 de octubre de 2023
+
+{{< button href="https://www.eventbrite.es/e/entradas-ponencia-salvando-vidas-informatica-y-salud-en-accion-735488755667" target="_self" >}}
+Entradas
+{{< /button >}}
