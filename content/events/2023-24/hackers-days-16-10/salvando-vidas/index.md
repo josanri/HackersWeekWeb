@@ -2,7 +2,7 @@
 title: "Salvando vidas: informática y salud en acción"
 date: 2023-10-10T17:54:02+02:00
 draft: false
-description: "Cómo acercar"
+description: "Cómo acercar la informática y la salud para mejorar la actuación ante pacientes"
 tags: ["presentation", "health"]
 categories: ["Hackers Day 16-20-23"]
 ---
@@ -12,6 +12,8 @@ categories: ["Hackers Day 16-20-23"]
 **Ponentes:** Pedro M. Torres Vertedor, CTO Meditecs.
 
 **Fecha:** 16 de octubre de 2023
+
+**Aula:** 3.0.8
 
 {{< button href="https://www.eventbrite.es/e/entradas-ponencia-salvando-vidas-informatica-y-salud-en-accion-735488755667" target="_self" >}}
 Entradas

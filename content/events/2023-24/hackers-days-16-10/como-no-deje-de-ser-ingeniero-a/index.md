@@ -12,6 +12,8 @@ Queremos hablaros de tú a tú de nuestra experiencia desde estar estudiando en 
 
 **Fecha:** 16 de octubre de 2023
 
+**Aula:** 3.0.4
+
 {{< button href="https://www.eventbrite.es/e/entradas-ponencia-como-no-deje-de-ser-ingenier-730258281177" target="_self" >}}
 Entradas
 {{< /button >}}
