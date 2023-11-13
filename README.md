@@ -4,9 +4,9 @@ La página de la Hackers Week está basada en **Hugo** con el tema de **Blowfish
 ## Desarrollo
 ### Iniciar en desarrollo
 ```
-hugo server [-D]
+hugo server [-D] [-F]
 ```
-Podemos añadir la ```-D``` para que se muestren los artículos en borrador también.
+Podemos añadir la ```-D``` para que se muestren los artículos en borrador también y ```-F``` para que se visualicen las entradas, aunque la fecha que aparezca sea futura en ese momento.
 ### Contenido
 ```
 hugo new carpeta/subcarpeta/archivo.md
