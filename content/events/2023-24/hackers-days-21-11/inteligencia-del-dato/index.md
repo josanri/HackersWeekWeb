@@ -12,7 +12,7 @@ Experiencia formativa consistente en WORKSHOP en el que se hablará sobre “el 
 
 **Fecha:** 21 de noviembre de 2023
 
-**Laboratorio:** 3.1.7
+**Laboratorio:** 3.1.10
 
 {{< button href="https://www.eventbrite.es/e/entradas-taller-la-inteligencia-del-dato-756444695447" target="_self" >}}
 Entradas
