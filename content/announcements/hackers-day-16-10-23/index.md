@@ -19,6 +19,6 @@ Este próximo 16 de octubre celebraremos el primer Hackers Day del curso, ¿te l
 Te esperamos el lunes a las 10:30 en la ETSI Informática.
 
 {{< button href="https://www.eventbrite.es/cc/hackers-day-i-16-10-23-2701279" target="_self" >}}
-Colección de eventos de Evenbrite
+Colección de eventos de Eventbrite
 {{< /button >}}
 

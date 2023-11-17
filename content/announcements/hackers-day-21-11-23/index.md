@@ -21,6 +21,6 @@ El próximo 21 de noviembre celebraremos el segundo y último Hackers Day del cu
 Pedimos responsabilidad en las entradas a talleres, las más limitadas y esperamos verte el martes a las 10:30 en la ETSI Informática.
 
 {{< button href="https://www.eventbrite.com/cc/hackers-day-ii-211123-2701269" target="_self" >}}
-Colección de eventos de Evenbrite
+Colección de eventos de Eventbrite
 {{< /button >}}
 
